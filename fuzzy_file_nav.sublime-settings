@@ -1,0 +1,44 @@
+{
+    "keep_panel_open_exceptions": ["open"],
+    "bookmarks": [
+        // {"name": "My Computer", "path": {"#multiconf#": [{"os:windows": ""}]}},
+        // {"name": "Root", "path": {"#multiconf#": [{"os:linux": "/"}, {"os:osx": "/"}]}},
+
+        // Windows @work
+        { "name": "C:", "path": "C:\\" },
+        { "name": "Dropbox", "path": { "#multiconf#": [
+            { "host:AP-LIB22A": "C:\\Alex\\Dropbox" },
+            { "host:AP-LIB25": "C:\\Alex\\Dropbox" }
+        ]}},
+        { "name": "My Documents", "path": { "#multiconf#": [
+            { "host:AP-LIB22A": "C:\\Documents and Settings\\ArmstrongA.ACGADMIN\\My Documents" },
+            { "host:AP-LIB25": "C:\\Documents and Settings\\ArmstrongA\\My Documents" }
+        ]}},
+        { "name": "Desktop", "path": { "#multiconf#": [
+            { "host:AP-LIB22A": "C:\\Documents and Settings\\ArmstrongA.ACGADMIN\\Desktop" },
+            { "host:AP-LIB25": "C:\\Documents and Settings\\ArmstrongA\\Desktop" }
+        ]}},
+        { "name": "Shared", "path": "\\\\Ap-lib-serv\\shared" },
+        { "name": "Shared Alex", "path": "\\\\Ap-lib-serv\\shared\\Alex" },
+        { "name": "Shared Alex_Prv", "path": "\\\\Ap-lib-serv\\shared\\Alex_Prv" },
+        { "name": "Shared Common", "path": "\\\\Ap-lib-serv\\shared\\Common Folder" },
+        { "name": "GTD", "path": { "#multiconf#": [
+            { "host:AP-LIB22A": "C:\\Alex\\Dropbox\\GTD" },
+            { "host:AP-LIB25": "C:\\Alex\\Dropbox\\GTD" }
+        ]}},
+        { "name": "Notebook", "path": { "#multiconf#": [
+            { "host:AP-LIB22A": "C:\\Alex\\Dropbox\\Notebook" },
+            { "host:AP-LIB25": "C:\\Alex\\Dropbox\\Notebook" }
+        ]}},
+        { "name": "ST3 Packages", "path": { "#multiconf#": [
+            { "host:AP-LIB22A": "C:\\Alex\\Dropbox\\Apps\\Sublime Text 3\\Data\\Packages\\" },
+            { "host:AP-LIB25": "C:\\Alex\\Dropbox\\Apps\\Sublime Text 3\\Data\\Packages\\" }
+        ]}},
+
+        // Linux @home
+        { "name": "Home", "path": "~" },
+        { "name": "~/.config", "path": "~/.config" },
+        { "name": "~/Dropbox", "path": "~/Dropbox" },
+        { "name": "Sublime Text 3", "path": "~/Dropbox/Apps/config/sublime-text-3/Packages" },
+    ]
+}

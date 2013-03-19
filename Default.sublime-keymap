@@ -1,0 +1,79 @@
+[
+    // Git
+    { "keys": ["ctrl+shift+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
+    { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
+
+	// ScopeHunter
+	// { "keys": ["ctrl+shift+c"], "command": "toggle_selection_scope" },
+    { "keys": ["ctrl+shift+alt+p"], "command": "get_selection_scope" },
+
+	// Fuzzy Nav
+	{ "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
+    { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
+	// { "keys": ["ctrl+s"], "command": "fuzzy_save_file" },
+
+    // QuickCal
+    { "keys": ["ctrl+super+alt+c"], "command": "calendar" },
+    { "keys": ["ctrl+super+alt+shift+c"], "command": "calendar_lookup" },
+    { "keys": ["alt+right"], "command": "calendar_month_nav", "context": [ { "key": "calendar_view" } ], "args": { "reverse": false } },
+    { "keys": ["alt+left"], "command": "calendar_month_nav", "context": [ { "key": "calendar_view" } ], "args": { "reverse": true } },
+    
+    // MultiBind
+    // Modal Navigation for Colemak -- inspired by [Miniguru](http://www.guru-board.com/english/layout_en)
+    
+    { "keys": ["alt+'"], "command": "multibind_toggle", "args" : { "layout": "modal-nav-colemak" } },
+    { "keys": ["ctrl+shift+'"], "command": "multibind_show" },
+    { "keys": ["escape"], "command": "multibind_toggle", "args" : { "layout": "default" }, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    
+    { "keys": ["n"], "command": "move", "args": {"by": "characters", "forward": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["i"], "command": "move", "args": {"by": "characters", "forward": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["u"], "command": "move", "args": {"by": "lines", "forward": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["e"], "command": "move", "args": {"by": "lines", "forward": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["N"], "command": "move", "args": {"by": "characters", "forward": false, "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["I"], "command": "move", "args": {"by": "characters", "forward": true, "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["U"], "command": "move", "args": {"by": "lines", "forward": false, "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["E"], "command": "move", "args": {"by": "lines", "forward": true, "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+
+    { "keys": ["ctrl+n"], "command": "move", "args": {"by": "words", "forward": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+i"], "command": "move", "args": {"by": "word_ends", "forward": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+N"], "command": "move", "args": {"by": "words", "forward": false, "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+I"], "command": "move", "args": {"by": "word_ends", "forward": true, "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+
+    { "keys": ["alt+n"], "command": "move", "args": {"by": "subwords", "forward": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["alt+i"], "command": "move", "args": {"by": "subword_ends", "forward": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["alt+N"], "command": "move", "args": {"by": "subwords", "forward": false, "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["alt+I"], "command": "move", "args": {"by": "subword_ends", "forward": true, "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+
+    { "keys": ["alt+U"], "command": "select_lines", "args": {"forward": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["alt+E"], "command": "select_lines", "args": {"forward": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+
+    { "keys": [";"], "command": "move", "args": {"by": "pages", "forward": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["o"], "command": "move", "args": {"by": "pages", "forward": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["shift+;"], "command": "move", "args": {"by": "pages", "forward": false, "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["shift+o"], "command": "move", "args": {"by": "pages", "forward": true, "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+
+    { "keys": ["l"], "command": "move_to", "args": {"to": "bol", "extend": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["y"], "command": "move_to", "args": {"to": "eol", "extend": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["shift+l"], "command": "move_to", "args": {"to": "bol", "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["shift+y"], "command": "move_to", "args": {"to": "eol", "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+l"], "command": "move_to", "args": {"to": "bof", "extend": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+y"], "command": "move_to", "args": {"to": "eof", "extend": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+shift+l"], "command": "move_to", "args": {"to": "bof", "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+shift+y"], "command": "move_to", "args": {"to": "eof", "extend": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+
+    { "keys": ["ctrl+u"], "command": "scroll_lines", "args": {"amount": 1.0 }, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+e"], "command": "scroll_lines", "args": {"amount": -1.0 }, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+
+    { "keys": ["ctrl+o"], "command": "next_view", "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+;"], "command": "prev_view", "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+
+    { "keys": ["ctrl+U"], "command": "swap_line_up", "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+E"], "command": "swap_line_down", "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+
+    { "keys": ["m"], "command": "right_delete", "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["shift+m"], "command": "cut", "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+m"], "command": "delete_word", "args": { "forward": true }, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+    { "keys": ["ctrl+shift+m"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
+
+
+]

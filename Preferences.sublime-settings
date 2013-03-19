@@ -1,0 +1,19 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"color_scheme": "Packages/Color Scheme - New/Brackets.tmTheme",
+	"font_face": "Source Code Pro",
+	"font_size": 10.5,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_active"
+	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
+	"overlay_scroll_bars": "enabled",
+	"translate_tabs_to_spaces": true
+}
