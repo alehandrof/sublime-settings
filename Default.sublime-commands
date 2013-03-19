@@ -1,4 +1,11 @@
 [
 	// Built-in commands from Context.sublime-menu
 	{ "command": "open_in_browser", "caption": "Open in Browser" },
+
+    // User/InsertDate.py
+    { "command": "insert_date", "caption": "Insert Date" },
+
+    // QuickCal
+    { "command": "calendar", "caption": "QuickCal: Calendar"},
+    { "command": "calendar_lookup", "caption": "QuickCal: Calendar Lookup"},
 ]
