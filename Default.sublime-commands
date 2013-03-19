@@ -1,6 +1,7 @@
 [
 	// Built-in commands from Context.sublime-menu
 	{ "command": "open_in_browser", "caption": "Open in Browser" },
+    { "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}, "caption": "Open Containing Folder…" },
 
     // User/InsertDate.py
     { "command": "insert_date", "caption": "Insert Date" },
