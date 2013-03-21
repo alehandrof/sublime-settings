@@ -4,8 +4,8 @@
     { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
 
 	// ScopeHunter
-	// { "keys": ["ctrl+shift+c"], "command": "toggle_selection_scope" },
-    { "keys": ["ctrl+shift+alt+p"], "command": "get_selection_scope" },
+	{ "keys": ["ctrl+shift+c"], "command": "toggle_selection_scope" },
+    // { "keys": ["ctrl+shift+alt+p"], "command": "get_selection_scope" },
 
 	// Fuzzy Nav
 	{ "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
