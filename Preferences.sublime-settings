@@ -15,5 +15,7 @@
 	"line_padding_bottom": 2,
 	"line_padding_top": 2,
 	"overlay_scroll_bars": "enabled",
+	"soda_classic_tabs": true,
+	"theme": "Soda Light.sublime-theme",
 	"translate_tabs_to_spaces": true
 }

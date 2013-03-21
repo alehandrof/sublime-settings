@@ -3,6 +3,8 @@
 	[
 		"Base16 Color Schemes",
 		"Emmet",
+		"Focus",
+		"FoldComments",
 		"FuzzyFileNav",
 		"Git",
 		"GitGutter",
@@ -10,7 +12,6 @@
 		"MultiBind",
 		"Package Control",
 		"PlistJsonConverter",
-		"QuickCal",
 		"ScopeHunter",
 		"SCSS",
 		"Theme - Soda",
@@ -23,6 +24,8 @@
 		"https://github.com/facelessuser/QuickCal",
 		"https://github.com/facelessuser/ScopeHunter/tree/ST3",
 		"https://github.com/KonTrax/MultiBind",
-		"https://github.com/sergeche/emmet-sublime/tree/st3"
+		"https://github.com/sergeche/emmet-sublime/tree/st3",
+		"https://github.com/hasclass/FoldComments",
+		"https://github.com/alehandrof/BetterGoTo"
 	]
 }
