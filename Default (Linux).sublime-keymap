@@ -2,36 +2,4 @@
     // Emmett overrides
     { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
     { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
- 
-    // Calendar
-    {
-        "keys": ["ctrl+super+alt+c"],
-        "command": "calendar"
-    },
-    {
-        "keys": ["ctrl+super+alt+shift+c"],
-        "command": "calendar_lookup"
-    },
-    {
-        "keys": ["alt+right"],
-        "command": "calendar_month_nav",
-        "context":
-        [
-            {
-                "key": "calendar_view"
-            }
-        ],
-        "args": {"reverse": false}
-    },
-    {
-        "keys": ["alt+left"],
-        "command": "calendar_month_nav",
-        "context":
-        [
-            {
-                "key": "calendar_view"
-            }
-        ],
-        "args": {"reverse": true}
-    },
 ]
