@@ -1,4 +1,15 @@
 [
+    /*** FIXES to DEFAULT BINDINGS ***/
+
+    // Remove binding for exiting; that's what my window manager is for
+    { "keys": ["ctrl+q"], "command": "do_nothing" },
+
+    // Invert Paste and Paste & Indent
+    { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+    { "keys": ["ctrl+shift+v"], "command": "paste" },
+
+    /*** PLUGINS ***/
+
     // Git
     { "keys": ["ctrl+shift+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
     { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
