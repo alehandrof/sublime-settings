@@ -6,7 +6,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
+		"Emmet"
 	],
 	"indent_guide_options":
 	[

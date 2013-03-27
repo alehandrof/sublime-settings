@@ -14,8 +14,10 @@
 		"PlistJsonConverter",
 		"ScopeHunter",
 		"SCSS",
+		"SmartMarkdown",
 		"Theme - Soda",
-		"Tomorrow Color Schemes"
+		"Tomorrow Color Schemes",
+		"WordCount"
 	],
 	"repositories":
 	[
