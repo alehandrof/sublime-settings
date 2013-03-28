@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Base16 Color Schemes",
+		"BetterGoTo",
 		"Emmet",
 		"Focus",
 		"FoldComments",
@@ -9,9 +10,12 @@
 		"Git",
 		"GitGutter",
 		"LESS",
+		"MoveTab",
 		"MultiBind",
+		"OmniMarkupPreviewer",
 		"Package Control",
 		"PlistJsonConverter",
+		"QuickCal",
 		"ScopeHunter",
 		"SCSS",
 		"SmartMarkdown",
@@ -28,6 +32,6 @@
 		"https://github.com/KonTrax/MultiBind",
 		"https://github.com/sergeche/emmet-sublime/tree/st3",
 		"https://github.com/hasclass/FoldComments",
-		"https://github.com/alehandrof/BetterGoTo"
+		"https://github.com/SublimeText/WordCount/tree/st3"
 	]
 }
