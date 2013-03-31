@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"Base16 Color Schemes",
+		"BufferScroll",
 		"Emmet",
 		"Focus",
 		"FoldComments",
@@ -9,27 +10,34 @@
 		"Git",
 		"GitGutter",
 		"LESS",
+		"LineEndings",
 		"MoveTab",
 		"MultiBind",
+		"Open-Include",
 		"Package Control",
 		"PlistJsonConverter",
 		"ScopeHunter",
 		"SCSS",
 		"SmartMarkdown",
+		"Tag",
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
 		"WordCount"
 	],
 	"repositories":
 	[
+		"https://github.com/alehandrof/BetterGoTo",
 		"https://github.com/facelessuser/FuzzyFileNav/tree/ST3",
 		"https://github.com/facelessuser/PlistJsonConverter/tree/ST3",
 		"https://github.com/facelessuser/QuickCal",
 		"https://github.com/facelessuser/ScopeHunter/tree/ST3",
+		"https://github.com/hasclass/FoldComments",
 		"https://github.com/KonTrax/MultiBind",
 		"https://github.com/sergeche/emmet-sublime/tree/st3",
-		"https://github.com/hasclass/FoldComments",
-		"https://github.com/alehandrof/BetterGoTo",
+		"https://github.com/SublimeText/BufferScroll/tree/st3",
+		"https://github.com/SublimeText/LineEndings/tree/st3",
+		"https://github.com/SublimeText/Open-Include/tree/st3",
+		"https://github.com/SublimeText/Tag/tree/st3",
 		"https://github.com/SublimeText/WordCount/tree/st3"
 	]
 }
