@@ -23,11 +23,13 @@
 		"Tag",
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
-		"WordCount"
+		"Typewriter",
+		"WordCount",
 	],
 	"repositories":
 	[
 		"https://github.com/alehandrof/BetterGoTo",
+		"https://github.com/alehandrof/Typewriter",
 		"https://github.com/facelessuser/FuzzyFileNav/tree/ST3",
 		"https://github.com/facelessuser/PlistJsonConverter/tree/ST3",
 		"https://github.com/facelessuser/QuickCal",
