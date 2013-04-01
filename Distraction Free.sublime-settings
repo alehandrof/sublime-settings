@@ -1,7 +1,7 @@
 {
     // "font_face": "Everson Mono",
     "font_face": "Source Code Pro Light",
-    // "font_face": "Nitti WM2",
+    "font_face": "Nitti WM2",
     "font_size": 20,
     "line_padding_bottom": 0,
     "line_padding_top": 0,

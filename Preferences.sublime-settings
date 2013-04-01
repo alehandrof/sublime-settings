@@ -1,13 +1,22 @@
 {
 	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/Color Scheme - New/Brackets.tmTheme",
+	"folder_exclude_patterns":
+	[
+		"ARCHIVE",
+		"BACKUP",
+		".git",
+		".sass-cache",
+		"*_files"
+	],
 	"font_face": "Source Code Pro",
 	"font_size": 10.5,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Emmet",
 		"Vintage",
-		"Emmet"
+		"MarkdownEditing"
 	],
 	"indent_guide_options":
 	[
