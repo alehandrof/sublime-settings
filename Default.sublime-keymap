@@ -8,6 +8,9 @@
     { "keys": ["ctrl+v"], "command": "paste_and_indent" },
     { "keys": ["ctrl+shift+v"], "command": "paste" },
 
+    // Paste from History
+    { "keys": ["alt+ctrl+shift+v"], "command": "paste_from_history" },
+
     /*** PLUGINS ***/
 
     // Git
