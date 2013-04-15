@@ -2,12 +2,11 @@
 	"installed_packages":
 	[
 		"Base16 Color Schemes",
+		"BetterGoTo",
 		"BufferScroll",
 		"CSScomb",
 		"Emmet",
-		"Focus",
 		"FoldComments",
-		"FuzzyFileNav",
 		"Git",
 		"GitGutter",
 		"LESS",
@@ -44,6 +43,7 @@
 		"https://github.com/SublimeText/Open-Include/tree/st3",
 		"https://github.com/SublimeText/Tag/tree/st3",
 		"https://github.com/SublimeText/WordCount/tree/st3",
-		"https://github.com/ttscoff/MarkdownEditing/"
+		"https://github.com/ttscoff/MarkdownEditing/",
+		"https://github.com/facelessuser/ColorSchemeEditor"
 	]
 }
