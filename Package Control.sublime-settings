@@ -3,6 +3,7 @@
 	[
 		"Base16 Color Schemes",
 		"BufferScroll",
+		"CSScomb",
 		"Emmet",
 		"Focus",
 		"FoldComments",
@@ -17,6 +18,7 @@
 		"Open-Include",
 		"Package Control",
 		"PlistJsonConverter",
+		"QuickCal",
 		"ScopeHunter",
 		"SCSS",
 		"SmartMarkdown",
@@ -24,7 +26,7 @@
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
 		"Typewriter",
-		"WordCount",
+		"WordCount"
 	],
 	"repositories":
 	[
