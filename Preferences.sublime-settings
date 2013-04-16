@@ -14,8 +14,8 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"MarkdownEditing",
-		"Vintage"
+		"Vintage",
+		"MarkdownEditing"
 	],
 	"indent_guide_options":
 	[
