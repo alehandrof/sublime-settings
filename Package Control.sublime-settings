@@ -4,6 +4,7 @@
 		"Base16 Color Schemes",
 		"BetterGoTo",
 		"BufferScroll",
+		"CSScomb",
 		"Emmet",
 		"FoldComments",
 		"Git",
@@ -25,11 +26,13 @@
 		"Tag",
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
+		"Typewriter",
 		"WordCount"
 	],
 	"repositories":
 	[
 		"https://github.com/alehandrof/BetterGoTo",
+		"https://github.com/alehandrof/Typewriter",
 		"https://github.com/facelessuser/FuzzyFileNav/tree/ST3",
 		"https://github.com/facelessuser/PlistJsonConverter/tree/ST3",
 		"https://github.com/facelessuser/QuickCal",

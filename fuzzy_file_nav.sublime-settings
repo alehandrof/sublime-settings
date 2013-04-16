@@ -39,6 +39,7 @@
         { "name": "Home", "path": { "#multiconf#": [ { "os:linux": "~" } ] } },
         { "name": "~/.config", "path": { "#multiconf#": [ { "os:linux": "~/.config" } ] } },
         { "name": "~/Dropbox", "path": { "#multiconf#": [ { "os:linux": "~/Dropbox" } ] } },
+        { "name": "~/.config/sublime-text-3/Packages", "path": { "#multiconf#": [ { "os:linux": "ST3 Packages" } ] } },
         // { "name": "Sublime Text 3", "path": "~/Dropbox/Apps/config/sublime-text-3/Packages" } ] } },
     ]
 }
