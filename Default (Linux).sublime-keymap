@@ -1,5 +1,5 @@
 [
-    // Emmett overrides
-    { "keys": ["alt+shift+up"], "command": "select_lines", "args": {"forward": false} },
-    { "keys": ["alt+shift+down"], "command": "select_lines", "args": {"forward": true} },
+    // Select multiple lines as in Windows
+    { "keys": ["ctrl+alt+up"], "command": "select_lines", "args": {"forward": false} },
+    { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
 ]
