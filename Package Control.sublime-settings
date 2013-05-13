@@ -5,13 +5,16 @@
 		"BetterGoTo",
 		"BufferScroll",
 		"CSScomb",
+		"Dayle Rees Color Schemes",
 		"Emmet",
+		"Failcoder Color Scheme",
 		"FavoriteFiles",
 		"FoldComments",
 		"Git",
 		"GitGutter",
 		"LESS",
 		"LineEndings",
+		"Madebyphunky Color Scheme",
 		"MarkdownEditing",
 		"MoveTab",
 		"MultiBind",
@@ -20,7 +23,9 @@
 		"Package Control",
 		"Pandown",
 		"PlistJsonConverter",
+		"Pomodoro",
 		"QuickCal",
+		"Schemr",
 		"ScopeHunter",
 		"SCSS",
 		"SmartMarkdown",
@@ -28,12 +33,14 @@
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
 		"Typewriter",
-		"WordCount"
+		"WordCount",
 	],
 	"repositories":
 	[
 		"https://github.com/alehandrof/BetterGoTo",
 		"https://github.com/alehandrof/Typewriter",
+		"https://github.com/facelessuser/ColorSchemeEditor",
+		"https://github.com/facelessuser/FavoriteFiles/tree/ST3",
 		"https://github.com/facelessuser/FuzzyFileNav/tree/ST3",
 		"https://github.com/facelessuser/PlistJsonConverter/tree/ST3",
 		"https://github.com/facelessuser/QuickCal",
@@ -47,7 +54,5 @@
 		"https://github.com/SublimeText/Tag/tree/st3",
 		"https://github.com/SublimeText/WordCount/tree/st3",
 		"https://github.com/ttscoff/MarkdownEditing/",
-		"https://github.com/facelessuser/ColorSchemeEditor",
-		"https://github.com/facelessuser/FavoriteFiles/tree/ST3"
 	]
 }
