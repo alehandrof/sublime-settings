@@ -9,4 +9,7 @@
     // QuickCal
     { "command": "calendar", "caption": "QuickCal: Calendar"},
     { "command": "calendar_lookup", "caption": "QuickCal: Calendar Lookup"},
+
+    // Find in Files at Current Folder
+    { "command": "find_in_current_folder", "caption": "Find in Files: At Current Folder" },
 ]
