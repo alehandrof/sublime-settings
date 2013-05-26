@@ -6,6 +6,7 @@
 		"BufferScroll",
 		"CSScomb",
 		"Dayle Rees Color Schemes",
+		"DocBlockr",
 		"Emmet",
 		"Failcoder Color Scheme",
 		"FavoriteFiles",
@@ -30,11 +31,12 @@
 		"SCSS",
 		"SmartMarkdown",
 		"Tag",
+		"Task Timer",
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
 		"Typewriter",
 		"VAlign",
-		"WordCount",
+		"WordCount"
 	],
 	"repositories":
 	[
@@ -54,6 +56,6 @@
 		"https://github.com/SublimeText/Open-Include/tree/st3",
 		"https://github.com/SublimeText/Tag/tree/st3",
 		"https://github.com/SublimeText/WordCount/tree/st3",
-		"https://github.com/ttscoff/MarkdownEditing/",
+		"https://github.com/ttscoff/MarkdownEditing/"
 	]
 }
