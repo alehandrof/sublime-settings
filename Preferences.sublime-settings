@@ -15,7 +15,9 @@
 	"ignored_packages":
 	[
 		"MarkdownEditing",
-		"Vintage"
+		"Vintage",
+		"Emmet",
+		"FoldComments",
 	],
 	"indent_guide_options":
 	[
@@ -25,6 +27,7 @@
 	"line_padding_top": 2,
 	"overlay_scroll_bars": "enabled",
 	"soda_classic_tabs": true,
-	"theme": "Soda Light.sublime-theme",
+	"soda_folder_icons": true,
+	"theme": "Soda Light 3.sublime-theme",
 	"translate_tabs_to_spaces": true
 }
