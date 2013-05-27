@@ -1,10 +1,10 @@
 {
     // "font_face": "Everson Mono",
-    "font_face": "Source Code Pro Light",
-    "font_face": "Nitti WM2",
-    "font_size": 20,
-    "line_padding_bottom": 0,
-    "line_padding_top": 0,
+    // "font_face": "Nitti Light WM2",
+    "font_face": "Source Code Pro",
+    "font_size": 16,
+    "line_padding_bottom": 4,
+    "line_padding_top": 4,
     "typewriter_mode" : true,
     "wrap_width": 65, // 65 (iA), // 67 (Bringhurst)
 }
