@@ -14,10 +14,10 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"MarkdownEditing",
-		"Vintage",
 		"Emmet",
 		"FoldComments",
+		"Vintage",
+		"MarkdownEditing"
 	],
 	"indent_guide_options":
 	[
