@@ -1,2 +1,5 @@
+*.sublime-project
+*.sublime-workspace
 Package Control.ca*
 Package Control.last-run
+subclrschm*
