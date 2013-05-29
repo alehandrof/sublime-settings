@@ -1,5 +1,6 @@
 {
 	"auto_complete_commit_on_tab": true,
+	"bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - New/Brackets.tmTheme",
 	"folder_exclude_patterns":
 	[
@@ -9,14 +10,16 @@
 		".sass-cache",
 		"*_files"
 	],
-	"font_face": "Source Code Pro",
+	// "font_face": "Source Code Pro",
 	"font_size": 10.5,
 	"highlight_line": true,
+	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"Vintage",
+		"FoldComments",
 		"MarkdownEditing",
-		"FoldComments"
+		"GitGutter"
 	],
 	"indent_guide_options":
 	[
