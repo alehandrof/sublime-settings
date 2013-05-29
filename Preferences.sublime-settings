@@ -16,10 +16,17 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+<<<<<<< HEAD
 		"Vintage",
 		"FoldComments",
 		"MarkdownEditing",
 		"GitGutter"
+=======
+		"MarkdownEditing",
+		"Vintage",
+		"Emmet",
+		"FoldComments",
+>>>>>>> d206efcfa1ee7da82e860fccd960d21258c12335
 	],
 	"indent_guide_options":
 	[
