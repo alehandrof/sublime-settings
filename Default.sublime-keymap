@@ -18,13 +18,13 @@
     { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
 
 	// ScopeHunter
-	{ "keys": ["ctrl+shift+c"], "command": "toggle_selection_scope" },
+    { "keys": ["ctrl+shift+c"], "command": "toggle_selection_scope" },
     // { "keys": ["ctrl+shift+alt+p"], "command": "get_selection_scope" },
 
-	// Fuzzy Nav
-	{ "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
+    // Fuzzy Nav
+    { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
     { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
-	// { "keys": ["ctrl+s"], "command": "fuzzy_save_file" },
+    // { "keys": ["ctrl+s"], "command": "fuzzy_save_file" },
 
     // QuickCal
     { "keys": ["ctrl+super+alt+c"], "command": "calendar" },
@@ -32,6 +32,9 @@
     { "keys": ["alt+right"], "command": "calendar_month_nav", "context": [ { "key": "calendar_view" } ], "args": { "reverse": false } },
     { "keys": ["alt+left"], "command": "calendar_month_nav", "context": [ { "key": "calendar_view" } ], "args": { "reverse": true } },
     
+    // Color Picker
+	{ "keys": ["alt+shift+c"], "command": "color_pick" },
+
     // MultiBind
     // Modal Navigation for Colemak -- inspired by [Miniguru](http://www.guru-board.com/english/layout_en)
     
