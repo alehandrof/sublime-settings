@@ -1,6 +1,5 @@
 {
 	"auto_complete_commit_on_tab": true,
-	// "bold_folder_labels": true,
 	"color_scheme": "Packages/Color Scheme - New/Brackets.tmTheme",
 	"folder_exclude_patterns":
 	[
@@ -10,23 +9,14 @@
 		".sass-cache",
 		"*_files"
 	],
-	// "font_face": "Source Code Pro",
 	"font_size": 10.5,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-<<<<<<< HEAD
-		"Vintage",
 		"FoldComments",
 		"MarkdownEditing",
-		"GitGutter"
-=======
-		"MarkdownEditing",
-		"Vintage",
-		"Emmet",
-		"FoldComments",
->>>>>>> d206efcfa1ee7da82e860fccd960d21258c12335
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
