@@ -31,17 +31,17 @@
     { "keys": ["ctrl+super+alt+shift+c"], "command": "calendar_lookup" },
     { "keys": ["alt+right"], "command": "calendar_month_nav", "context": [ { "key": "calendar_view" } ], "args": { "reverse": false } },
     { "keys": ["alt+left"], "command": "calendar_month_nav", "context": [ { "key": "calendar_view" } ], "args": { "reverse": true } },
-    
+
     // Color Picker
 	{ "keys": ["alt+shift+c"], "command": "color_pick" },
 
     // MultiBind
     // Modal Navigation for Colemak -- inspired by [Miniguru](http://www.guru-board.com/english/layout_en)
-    
+
     { "keys": ["alt+'"], "command": "multibind_toggle", "args" : { "layout": "modal-nav-colemak" } },
     { "keys": ["ctrl+shift+'"], "command": "multibind_show" },
     { "keys": ["escape"], "command": "multibind_toggle", "args" : { "layout": "default" }, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
-    
+
     { "keys": ["n"], "command": "move", "args": {"by": "characters", "forward": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
     { "keys": ["i"], "command": "move", "args": {"by": "characters", "forward": true}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
     { "keys": ["u"], "command": "move", "args": {"by": "lines", "forward": false}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },

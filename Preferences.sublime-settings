@@ -14,8 +14,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"FoldComments",
 		"MarkdownEditing",
+		"FoldComments",
 		"Vintage"
 	],
 	"indent_guide_options":
