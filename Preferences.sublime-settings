@@ -1,4 +1,5 @@
 {
+	"atomic_save": false,
 	"auto_complete_commit_on_tab": true,
 	"color_scheme": "Packages/Color Scheme - New/Brackets.tmTheme",
 	"folder_exclude_patterns":
@@ -14,8 +15,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"MarkdownEditing",
 		"FoldComments",
+		"MarkdownEditing",
 		"Vintage"
 	],
 	"indent_guide_options":
