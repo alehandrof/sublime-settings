@@ -9,14 +9,15 @@
 		".sass-cache",
 		"*_files"
 	],
+	"font_face": "Source Code Pro",
 	"font_size": 10.5,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"FoldComments",
-		"MarkdownEditing",
-		"Vintage"
+		"Vintage",
+		"MarkdownEditing"
 	],
 	"indent_guide_options":
 	[
@@ -28,6 +29,6 @@
 	"soda_classic_tabs": true,
 	"soda_folder_icons": true,
 	"theme": "Soda Light 3.sublime-theme",
-	"translate_tabs_to_spaces": true,
+	// "translate_tabs_to_spaces": true	,
 	"trim_trailing_white_space_on_save": true
 }
