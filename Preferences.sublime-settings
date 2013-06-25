@@ -1,7 +1,6 @@
 {
-	"atomic_save": false,
 	"auto_complete_commit_on_tab": true,
-	"color_scheme": "Packages/Color Scheme - New/Brackets.tmTheme",
+	"color_scheme": "Packages/Color Scheme - New/Solarized Brackets.tmTheme",
 	"folder_exclude_patterns":
 	[
 		"ARCHIVE",
@@ -16,9 +15,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"FoldComments",
 		"Vintage",
-		"MarkdownEditing"
+		"MarkdownEditing",
+		"FoldComments",
+		"Theme - Soda"
 	],
 	"indent_guide_options":
 	[
@@ -29,7 +29,5 @@
 	"overlay_scroll_bars": "enabled",
 	"soda_classic_tabs": true,
 	"soda_folder_icons": true,
-	"theme": "Soda Light 3.sublime-theme",
-	// "translate_tabs_to_spaces": true	,
 	"trim_trailing_white_space_on_save": true
 }

@@ -1,13 +1,13 @@
 {
 	"installed_packages":
 	[
+		"AlignTab",
 		"Base16 Color Schemes",
 		"BetterGoTo",
 		"Boron Color Scheme",
 		"BufferScroll",
 		"CoffeeScript",
 		"ColorPicker",
-		"CSScomb",
 		"Dayle Rees Color Schemes",
 		"DocBlockr",
 		"eco",
@@ -20,6 +20,7 @@
 		"FuzzyFileNav",
 		"Git",
 		"GitGutter",
+		"knockdown",
 		"LESS",
 		"LineEndings",
 		"Madebyphunky Color Scheme",
@@ -32,9 +33,12 @@
 		"PlistJsonConverter",
 		"Pomodoro",
 		"QuickCal",
+		"SassBeautify",
+		"Schemr",
 		"ScopeHunter",
 		"SCSS",
 		"SmartMarkdown",
+		"Sublimerge",
 		"Tag",
 		"Task Timer",
 		"Theme - Soda",
@@ -62,6 +66,7 @@
 		"https://github.com/SublimeText/Open-Include/tree/st3",
 		"https://github.com/SublimeText/Tag/tree/st3",
 		"https://github.com/SublimeText/WordCount/tree/st3",
-		"https://github.com/ttscoff/MarkdownEditing/"
+		"https://github.com/ttscoff/MarkdownEditing/",
+		"https://github.com/borysf/Sublimerge/tree/sublime-text-3"
 	]
 }
