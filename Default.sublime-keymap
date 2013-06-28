@@ -8,8 +8,8 @@
     { "keys": ["ctrl+q"], "command": "do_nothing" },
 
     // Invert Paste and Paste & Indent
-    // { "keys": ["ctrl+v"], "command": "paste_and_indent" },
-    // { "keys": ["ctrl+shift+v"], "command": "paste" },
+    { "keys": ["ctrl+v"], "command": "paste_and_indent" },
+    { "keys": ["ctrl+shift+v"], "command": "paste" },
 
     // Paste from History
     { "keys": ["alt+ctrl+shift+v"], "command": "paste_from_history" },
@@ -107,6 +107,7 @@
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true },
             { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
             { "key": "preceding_text", "operator": "not_regex_contains", "operand": "(?:^(\\s)*|foo)$", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\\s|\\)|$)", "match_all": true },
             // { "key": "following_text", "operator": "regex_contains", "operand": "^(?:\t| |\\)|]|\\}|>|$)", "match_all": true },
             // { "key": "preceding_text", "operator": "not_regex_contains", "operand": "[*a-zA-Z0-9_]$", "match_all": true },
             // { "key": "eol_selector", "operator": "not_equal", "operand": "string.quoted.single", "match_all": true },
@@ -143,7 +144,6 @@
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true },
             { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
-            // { "key": "preceding_text", "operator": "not_regex_contains", "operand": "(?:^(\\s)*|foo)$", "match_all": true },
         ]
     },
     { "keys": ["_"], "command": "insert_snippet", "args": {"contents": "_${0:$SELECTION}_"}, "context":
@@ -218,6 +218,14 @@
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true },
             { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
+        ]
+    },
+    // Horizontal Rule
+        { "keys": ["*"], "command": "run_macro_file", "args": {"file": "res://Packages/User/Markdown Horizontal Rule.sublime-macro"}, "context":
+        [
+            { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true },
+            { "key": "preceding_text", "operator": "regex_contains", "operand": "\\*\\*", "match_all": true },
+            { "key": "following_text", "operator": "regex_contains", "operand": "\\*", "match_all": true },
         ]
     },
 ]
