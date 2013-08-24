@@ -12,4 +12,10 @@
 
     // Find in Files at Current Folder
     { "command": "find_in_current_folder", "caption": "Find in Files: At Current Folder" },
+
+    // Preferences (override defaults)
+    { "caption": "Preferences: Commands - User", "command": "open_file", "args": { "file": "${packages}/User/Default.sublime-commands" } },
+    { "caption": "Preferences: Key Bindings - Windows", "command": "open_file", "args": { "file": "${packages}/User/Default (Windows).sublime-keymap"/*, "platform": "Windows"*/ } },
+    { "caption": "Preferences: Key Bindings - Linux", "command": "open_file", "args": { "file": "${packages}/User/Default (Linux).sublime-keymap"/*, "platform": "Linux"*/ } },
+    { "caption": "Preferences: Key Bindings - User's Default", "command": "open_file", "args": { "file": "${packages}/User/Default.sublime-keymap" } },
 ]

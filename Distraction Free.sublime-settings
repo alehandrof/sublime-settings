@@ -1,12 +1,13 @@
 {
     // "font_face": "Everson Mono",
-    "font_face": "Source Code Pro",
-    "font_face": "Nitti Light WM2",
-    "font_size": 18,
-    "line_padding_bottom": 0,
-    "line_padding_top": 0,
+    // "font_face": "Source Code Pro", "font_size": 16, "line_padding_bottom": 3, "line_padding_top": 3,
+    // "font_face": "Nitti Light WM2", "font_size": 18, "line_padding_bottom": 0, "line_padding_top": 0,
+    // "font_face": "Courier Screenplay", "font_size": 16, "line_padding_bottom": 4, "line_padding_top": 4,
+    "font_face": "Courier Prime", "font_size": 16, "line_padding_bottom": 3, "line_padding_top": 9,
+    "font_face": "Courier Prime", "font_size": 14, "line_padding_bottom": 3, "line_padding_top": 7,
     "typewriter_mode" : true,
-    "typewriter_typing" : true,
     "auto_match_enabled": false,
-    "wrap_width": 65, // 65 (iA), // 67 (Bringhurst)
+    "wide_caret": true,
+    // "gutter": true,
+    "wrap_width": 65 // // // 73 (Typewriters); 67 (Bringhurst); 65 (iA)
 }

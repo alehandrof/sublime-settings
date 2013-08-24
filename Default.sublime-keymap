@@ -21,7 +21,7 @@
     { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
 
 	// ScopeHunter
-    { "keys": ["ctrl+shift+c"], "command": "toggle_selection_scope" },
+    { "keys": ["alt+shift+c"], "command": "toggle_selection_scope" },
     // { "keys": ["ctrl+shift+alt+p"], "command": "get_selection_scope" },
 
     // Fuzzy Nav
@@ -35,8 +35,8 @@
     { "keys": ["alt+right"], "command": "calendar_month_nav", "context": [ { "key": "calendar_view" } ], "args": { "reverse": false } },
     { "keys": ["alt+left"], "command": "calendar_month_nav", "context": [ { "key": "calendar_view" } ], "args": { "reverse": true } },
 
-    // Color Picker
-	{ "keys": ["alt+shift+c"], "command": "color_pick" },
+    // Typewriter
+    { "keys": ["super+t"], "command": "run_macro_file", "args": { "file": "res://Packages/Typewriter/Typewriter Mode.sublime-macro" } },
 
     // MultiBind
     // Modal Navigation for Colemak -- inspired by [Miniguru](http://www.guru-board.com/english/layout_en)
@@ -101,7 +101,7 @@
     /*** MARKDOWN ***/
 
     // Auto-pair asterisks (based on "Auto-pair single quotes" from the Default sublime keymap)
-    { "keys": ["*"], "command": "insert_snippet", "args": {"contents": "*$0*"}, "context":
+    /*{ "keys": ["*"], "command": "insert_snippet", "args": {"contents": "*$0*"}, "context":
         [
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true },
@@ -202,7 +202,7 @@
             { "key": "preceding_text", "operator": "regex_contains", "operand": "`$", "match_all": true },
             { "key": "following_text", "operator": "regex_contains", "operand": "^`", "match_all": true },
         ]
-    },
+    },*/
 
     // Insert link
     { "keys": ["ctrl+alt+l"], "command": "insert_snippet", "args": {"contents": "[$1]($2)$0"}, "context":
@@ -221,11 +221,11 @@
         ]
     },
     // Horizontal Rule
-        { "keys": ["*"], "command": "run_macro_file", "args": {"file": "res://Packages/User/Markdown Horizontal Rule.sublime-macro"}, "context":
+    /* { "keys": ["*"], "command": "run_macro_file", "args": {"file": "res://Packages/User/Markdown Horizontal Rule.sublime-macro"}, "context":
         [
             { "key": "selector", "operator": "equal", "operand": "text.html.markdown", "match_all": true },
             { "key": "preceding_text", "operator": "regex_contains", "operand": "\\*\\*", "match_all": true },
             { "key": "following_text", "operator": "regex_contains", "operand": "\\*", "match_all": true },
         ]
-    },
+    },*/
 ]
