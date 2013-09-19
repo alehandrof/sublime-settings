@@ -1,6 +1,6 @@
 {
 	"auto_complete_commit_on_tab": true,
-	"color_scheme": "Packages/Color Scheme - New/Typewriter.tmTheme",
+	"color_scheme": "Packages/Typewriter/Typewriter (Light).tmTheme",
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"folder_exclude_patterns":
 	[
@@ -15,9 +15,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"MarkdownEditing",
-		"SublimeGit",
 		"Vintage",
+		"MarkdownEditing",
 		"knockdown"
 	],
 	"indent_guide_options":
