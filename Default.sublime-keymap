@@ -40,6 +40,22 @@
     // Typewriter
     { "keys": ["super+t"], "command": "run_macro_file", "args": { "file": "res://Packages/Typewriter/Typewriter Mode.sublime-macro" } },
 
+    // SmartCursor (replace standard up/down)
+    { "keys": ["up"], "command": "smart_cursor", "args": {"cmd": "move", "by": "lines", "forward": false}, "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operator": "equal", "operand": false }
+        ]
+    },
+    { "keys": ["down"], "command": "smart_cursor", "args": {"cmd": "move", "by": "lines", "forward": true}, "context":
+        [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": false },
+            { "key": "setting.command_mode", "operand": false },
+            { "key": "setting.is_widget", "operator": "equal", "operand": false }
+        ]
+    },
+
     // MultiBind
     // Modal Navigation for Colemak -- inspired by [Miniguru](http://www.guru-board.com/english/layout_en)
 
