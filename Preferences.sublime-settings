@@ -1,6 +1,24 @@
 {
 	"auto_complete_commit_on_tab": true,
-	"color_scheme": "Packages/Typewriter/Typewriter (Light).tmTheme",
+	"binary_file_patterns":
+	[
+        "*.ogg",
+        "*.dds",
+        "*.eot",
+        "*.gif",
+        "*.ico",
+        "*.jar",
+        "*.jpeg",
+        "*.jpg",
+        "*.mp3",
+        "*.pdf",
+        "*.png",
+        "*.swf",
+        "*.tga",
+        "*.ttf",
+        "*.zip",
+	],
+	"color_scheme": "Packages/BetterMarkdown/Typewriter (Light).tmTheme",
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"folder_exclude_patterns":
 	[
@@ -15,16 +33,19 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"knockdown",
+		"WakaTime",
+		"Terminal",
 		"Vintage",
+		"Pandown",
+		"Toggl Timer",
 		"MarkdownEditing",
-		"knockdown"
+		"BracketHighlighter"
 	],
 	"indent_guide_options":
 	[
 		"draw_active"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
 	"margin": 0,
 	"mouse_wheel_switches_tabs": true,
 	"overlay_scroll_bars": "enabled",
