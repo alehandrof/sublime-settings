@@ -14,6 +14,9 @@
     // Paste from History
     { "keys": ["alt+ctrl+shift+v"], "command": "paste_from_history" },
 
+    // Easier access to Palette
+    { "keys": ["alt+`"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+
     /*** PLUGINS ***/
 
     // Git
@@ -55,6 +58,9 @@
             { "key": "setting.is_widget", "operator": "equal", "operand": false }
         ]
     },
+
+    // AlignTab
+    { "keys": ["ctrl+\\"], "command": "align_tab", "args": { "user_input" : "\\|" }, "context": [ { "key": "selector", "operator": "equal", "operand": "text.plain, text.html.markdown", "match_all": true } ] },
 
     // MultiBind
     // Modal Navigation for Colemak -- inspired by [Miniguru](http://www.guru-board.com/english/layout_en)
@@ -112,7 +118,4 @@
     { "keys": ["shift+m"], "command": "cut", "context": [ { "key": "multibind.modal-nav-colemak" } ] },
     { "keys": ["ctrl+m"], "command": "delete_word", "args": { "forward": true }, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
     { "keys": ["ctrl+shift+m"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"}, "context": [ { "key": "multibind.modal-nav-colemak" } ] },
-
-    // AlignTab
-    { "keys": ["ctrl+\\"], "command": "align_tab", "args": { "user_input" : "\\|" }, "context": [ { "key": "selector", "operator": "equal", "operand": "text.plain, text.html.markdown", "match_all": true } ] },
 ]
