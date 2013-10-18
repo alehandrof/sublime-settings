@@ -1,0 +1,17 @@
+{
+    "auto_complete_delay": 1000,
+    "tab_size": 2,
+    "translate_tabs_to_spaces": false,
+    "better_markdown_autopair": true,
+	"extensions":
+	[
+		// ".txt",
+		// ".text",
+		"md",
+		"markdown",
+		"mdown",
+		"mdwn",
+		"mkd",
+		"mkdn"
+	]
+}
