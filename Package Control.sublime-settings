@@ -6,6 +6,7 @@
 		"AdvancedNewFile",
 		"Alignment",
 		"AlignTab",
+		"All Autocomplete",
 		"AutoPEP8",
 		"Base16 Color Schemes",
 		"BetterGoTo",
@@ -13,12 +14,15 @@
 		"BufferScroll",
 		"CoffeeScript",
 		"ColorPicker",
+		"Dayle Rees Color Schemes",
 		"DocBlockr",
+		"EasyDiff",
 		"eco",
 		"EditorConfig",
 		"Emmet",
 		"FavoriteFiles",
 		"FileDiffs",
+		"Find++",
 		"FindKeyConflicts",
 		"Focus",
 		"FuzzyFileNav",
@@ -41,6 +45,8 @@
 		"Package Control",
 		"Pandown",
 		"PlistJsonConverter",
+		"Pomodoro",
+		"RegReplace",
 		"Saccades",
 		"Sass",
 		"SassBeautify",
@@ -60,7 +66,6 @@
 		"Toggl Timer",
 		"Tomorrow Color Schemes",
 		"VAlign",
-		"WakaTime",
 		"WordCount",
 		"WordHighlight",
 		"Zen Tabs"
@@ -69,6 +74,7 @@
 	[
 		"https://github.com/Arood/Super-Zen/",
 		"https://github.com/bizoo/SmartCursor",
-		"https://github.com/SublimeText/SideBarFolders"
+		"https://github.com/SublimeText/SideBarFolders",
+		"https://github.com/facelessuser/EasyDiff"
 	]
 }

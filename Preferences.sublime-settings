@@ -19,7 +19,7 @@
 		"*.ttf",
 		"*.zip"
 	],
-	"color_scheme": "Packages/BetterMarkdown/Typewriter (Light).tmTheme",
+	"color_scheme": "Packages/Writerly/Writerly - Light.tmTheme",
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"folder_exclude_patterns":
 	[
@@ -29,8 +29,6 @@
 		".sass-cache",
 		"*_files"
 	],
-	"font_face": "Source Code Pro",
-	"font_size": 10.5,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
@@ -38,22 +36,21 @@
 		"MarkdownEditing",
 		"Vintage",
 		"Zen Tabs",
-		"Terminal",
-		"BracketHighlighter",
-		"knockdown",
 		"Pandown",
+		"knockdown",
+		"Terminal",
+		"BracketHighlighter"
 	],
 	"indent_guide_options":
 	[
 		"draw_active"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
 	"margin": 0,
 	"mouse_wheel_switches_tabs": true,
 	"overlay_scroll_bars": "enabled",
 	"soda_folder_icons": true,
 	"theme": "Soda Light 3.sublime-theme",
 	"trim_automatic_white_space": false,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"wide_caret": true
 }
