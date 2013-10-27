@@ -1,0 +1,5 @@
+[
+    // Stop Ctrl+Scroll Wheel from changing the font size
+    { "button": "scroll_down", "modifiers": ["ctrl"], "command": "unbound" },
+    { "button": "scroll_up", "modifiers": ["ctrl"], "command": "unbound" },
+]
