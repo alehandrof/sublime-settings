@@ -4,8 +4,22 @@
 
     /*** FIXES to DEFAULT BINDINGS ***/
 
-    // Remove binding for exiting; that's what my window manager is for
+    // Unbind exit
     { "keys": ["ctrl+q"], "command": "unbound" },
+
+    // Unbind increase/decrease font size
+    { "keys": ["ctrl++"], "command": "unbound" },
+    { "keys": ["ctrl+="], "command": "unbound" },
+    { "keys": ["ctrl+keypad_plus"], "command": "unbound" },
+    { "keys": ["ctrl+-"], "command": "unbound" },
+    { "keys": ["ctrl+keypad_minus"], "command": "unbound" },
+    { "keys": ["ctrl+equals"], "command": "unbound" },
+    { "keys": ["ctrl+shift+equals"], "command": "unbound" },
+    { "keys": ["ctrl+keypad_plus"], "command": "unbound" },
+    { "keys": ["ctrl+shift+keypad_plus"], "command": "unbound" },
+
+    // Unbind build
+    { "keys": ["f7"], "command": "unbound" },
 
     // Invert Paste and Paste & Indent
     { "keys": ["ctrl+v"], "command": "paste_and_indent" },
@@ -17,19 +31,9 @@
     // Easier access to Palette
     { "keys": ["alt+`"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 
-    // HTML: Wrap Selection With Tag
+    // Bind "X/HTML: Wrap Selection With Tag"
     { "keys": ["ctrl+alt+t"], "command": "insert_snippet", "args": {"name": "Packages/XML/long-tag.sublime-snippet"}, "context": [ { "key": "selector", "operator": "equal", "operand": "text.html, text.xml", "match_all": true } ] },
 
-    // Remove font size bindings
-    { "keys": ["ctrl++"], "command": "unbound" },
-    { "keys": ["ctrl+="], "command": "unbound" },
-    { "keys": ["ctrl+keypad_plus"], "command": "unbound" },
-    { "keys": ["ctrl+-"], "command": "unbound" },
-    { "keys": ["ctrl+keypad_minus"], "command": "unbound" },
-    { "keys": ["ctrl+equals"], "command": "unbound" },
-    { "keys": ["ctrl+shift+equals"], "command": "unbound" },
-    { "keys": ["ctrl+keypad_plus"], "command": "unbound" },
-    { "keys": ["ctrl+shift+keypad_plus"], "command": "unbound" },
 
     /*** PLUGINS ***/
 
@@ -76,7 +80,6 @@
     // AlignTab
     { "keys": ["ctrl+\\"], "command": "align_tab", "args": { "user_input" : "\\|" }, "context": [ { "key": "selector", "operator": "equal", "operand": "text.plain, text.html.markdown", "match_all": true } ] },
 
-
     /* OVERTYPE CHARACTERS */
 
     // CSS, LESS & SCSS
@@ -85,7 +88,7 @@
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
             // { "key": "selector", "operator": "equal", "operand": "source.css, source.less, source.scss", "match_all": true },
-            { "key": "following_text", "operator": "regex_contains", "operand": ";", "match_all": true }
+            { "key": "following_text", "operator": "regex_contains", "operand": "^;", "match_all": true }
         ]
     },
     { "keys": [":"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
@@ -93,9 +96,20 @@
             { "key": "setting.auto_match_enabled", "operator": "equal", "operand": true },
             { "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true },
             // { "key": "selector", "operator": "equal", "operand": "source.css, source.less, source.scss", "match_all": true },
-            { "key": "following_text", "operator": "regex_contains", "operand": ":", "match_all": true }
+            { "key": "following_text", "operator": "regex_contains", "operand": "^:", "match_all": true }
         ]
     },
+
+    /* REGREPLACE */
+    /*
+    {
+        "caption": "Reg Replace: Markdownify Text",
+        "command": "reg_replace",
+        "args": {
+            "replacements": [ "markdownify_double_quotes", "markdownify_single_quotes", "markdownify_en_dashes", "markdownify_em_dashes" ]
+        }
+    },
+    */
 
     /* MULTIBIND -- probably outdated */
     // Modal Navigation for Colemak -- inspired by [Miniguru](http://www.guru-board.com/english/layout_en)
