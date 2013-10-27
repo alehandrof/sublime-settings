@@ -1,0 +1,71 @@
+{
+    "syntaxmgr_settings": [
+        { // Tab size
+            "scopes": [
+                "text.html",
+                "source.css",
+                "source.less",
+                "source.scss"
+            ],
+            "settings": {
+                "tab_size": 2
+            }
+        },
+        { // Rulers
+            "scopes": [
+                "source.python"
+            ],
+            "settings":{
+                "rulers": [80]
+            }
+        }
+    ]
+}
+
+    // Light-weight Markup
+    /*
+    {
+        "extensions": [
+            "markdown", "mdown", "md",
+            "textile", "rdoc", "org",
+            "creole", "mediawiki", "rst",
+            "asciidoc", "pod", "txt"
+        ],
+        "settings": {
+            "syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+        }
+    }*/
+
+        /*
+        {
+            // for c and python files
+            "scopes": ["source.c", "source.python"],
+            "settings": {
+                "trim_trailing_white_space_on_save_scope" : true,
+                "auto_match_enabled" : true
+            }
+        },
+        {
+            // all text files
+            "scopes": ["text"],
+            "settings": {
+                "spell_check": true,
+                "color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme"
+            }
+        },
+        {
+            // for all text files, excluding latex files
+            "scopes": ["text"],
+            "scopes_excluded": ["text.tex"],
+            "settings": {
+                "spell_check": false
+            }
+        },
+        {
+            // use latex syntex for these extensions
+            "extensions": ["ltx", "latex","l"],
+            "settings": {
+                "syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+            }
+        }
+        */
