@@ -1,5 +1,9 @@
+*.md
 *.sublime-project
 *.sublime-workspace
+favorite_files_list.json
 Package Control.ca*
 Package Control.last-run
+Package Control.list
 subclrschm*
+User.sublime-completions
