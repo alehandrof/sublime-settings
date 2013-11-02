@@ -18,4 +18,8 @@
     { "caption": "Preferences: Key Bindings - Windows", "command": "open_file", "args": { "file": "${packages}/User/Default (Windows).sublime-keymap"/*, "platform": "Windows"*/ } },
     { "caption": "Preferences: Key Bindings - Linux", "command": "open_file", "args": { "file": "${packages}/User/Default (Linux).sublime-keymap"/*, "platform": "Linux"*/ } },
     { "caption": "Preferences: Key Bindings - User's Default", "command": "open_file", "args": { "file": "${packages}/User/Default.sublime-keymap" } },
+
+    // Zen Tabs
+    { "command": "zen_tabs_reload", "caption": "Zen Tabs: Reload Settings" },
+    { "command": "switch_tabs", "caption": "Zen Tabs: Switch Tabs" }
 ]
