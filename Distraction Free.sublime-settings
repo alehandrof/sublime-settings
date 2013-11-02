@@ -12,6 +12,7 @@
 
 /* Misc Settings */
     "typewriter_mode_scrolling" : true,
+    "auto_complete": true,
     // "auto_match_enabled": false,
     // "gutter": true,
     "wrap_width": 65 // // // 73 (Typewriters); 67 (Bringhurst); 65 (iA)

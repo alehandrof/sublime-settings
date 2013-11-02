@@ -33,13 +33,14 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"MarkdownEditing",
-		"Vintage",
-		"Zen Tabs",
-		"Pandown",
+		"Markdown",
 		"knockdown",
-		"Terminal",
-		"BracketHighlighter"
+		"BracketHighlighter",
+		"AlignTab",
+		"Pandown",
+		"Vintage",
+		"MarkdownEditing",
+		"Terminal"
 	],
 	"indent_guide_options":
 	[

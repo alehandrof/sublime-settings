@@ -1,8 +1,10 @@
 {
-    "auto_complete_delay": 1000,
+    // "auto_complete_delay": 1000,
+    // "auto_complete_delay": 1000,
     "tab_size": 2,
     "translate_tabs_to_spaces": false,
     "better_markdown_autopair": true,
+    "auto_match_enabled": false,
 	"extensions":
 	[
 		// ".txt",

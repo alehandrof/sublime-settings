@@ -1,0 +1,59 @@
+{
+    "replacements": {
+        // Example replacements
+        "html5_remove_deprecated_type_attr": {
+            "find": "(<(style|script)[^>]*)\\stype=(\"|')text/(css|javascript)(\"|')([^>]*>)",
+            "replace": "\\1\\6",
+            "greedy": true,
+            "case": false
+        },
+        // remove_json_dangling_commas
+        "remove_json_dangling_commas": {
+            "find": ",([\\r\\n\\s]*)(\\]|\\})",
+            "replace": "\\1\\2",
+            "greedy": true,
+            "scope_filter": ["-string", "-comment"]
+        },
+        "remove_html_comments": {
+            "find": "<!--[\\s\\S]+?-->",
+            "replace": "",
+            "scope_filter": ["!comment"],
+            "greedy": true,
+            "case": true
+        },
+        "remove_trailing_spaces": {
+            "find": "[ \\t]+$",
+            "replace": "",
+            "greedy": true,
+            "case": true
+        },
+        // Delete a comment or comment blocks
+        "remove_comments": {
+            "scope": "comment",
+            "find" : "([^\\n\\r]+)",
+            "replace": "",
+            "greedy_replace": true
+        },
+        "markdownify_double_quotes": {
+            "scope":   "text",
+            "find":    "[“”]",
+            "replace": "\""
+        },
+        "markdownify_single_quotes": {
+            "scope":   "text",
+            "find":    "[‘’]",
+            "replace": "\\'"
+        },
+        "markdownify_en_dashes": {
+            "scope":   "text",
+            "find":    "[–]",
+            "replace": "--"
+        },
+        "markdownify_em_dashes": {
+            "scope":   "text",
+            "find":    "[—]",
+            "replace": "---"
+        },
+    },
+
+}

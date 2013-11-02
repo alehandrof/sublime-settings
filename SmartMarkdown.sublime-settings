@@ -1,0 +1,10 @@
+{
+    "pandoc_args": [],
+    "pandoc_args_pdf": [],
+    "pandoc_args_docx": [],
+    "pandoc_args_html": [
+        "--email-obfuscation=none",
+        "--smart",
+        "--to=html5",
+    ],
+}
