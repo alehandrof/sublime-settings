@@ -19,7 +19,7 @@
 		"*.ttf",
 		"*.zip"
 	],
-	"color_scheme": "Packages/Writerly/Writerly - Light.tmTheme",
+	"color_scheme": "Packages/User/Writerly - Light (SL).tmTheme",
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"folder_exclude_patterns":
 	[
@@ -33,14 +33,16 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
-		"knockdown",
-		"BracketHighlighter",
-		"AlignTab",
-		"Pandown",
 		"Vintage",
+		"Markdown",
+		"ChangeList",
+		"Terminal",
+		"Markdown Preview",
 		"MarkdownEditing",
-		"Terminal"
+		"knockdown",
+		"EasyMotion",
+		"AdvancedNewFile",
+		"DictionaryAutoComplete"
 	],
 	"indent_guide_options":
 	[

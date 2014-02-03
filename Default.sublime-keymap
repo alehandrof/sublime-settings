@@ -80,6 +80,13 @@
     // AlignTab
     { "keys": ["ctrl+\\"], "command": "align_tab", "args": { "user_input" : "\\|" }, "context": [ { "key": "selector", "operator": "equal", "operand": "text.plain, text.html.markdown", "match_all": true } ] },
 
+    // Find++
+    { "keys": ["ctrl+alt+f"], "command": "fpp_find_in_project" },
+
+    // SuperNavigator
+    { "keys": ["alt+r"], "command": "super_navigate", "context": [ { "key": "panel_visible", "operator": "equal", "operand": false } ] },
+    { "keys": ["shift+alt+r"], "command": "super_navigate", "args": { "allTabs": true } },
+
     /* OVERTYPE CHARACTERS */
 
     // CSS, LESS & SCSS
