@@ -1,9 +1,19 @@
+# Binary
+subclrschm*
+
+# Documentation
 *.md
-*.sublime-project
-*.sublime-workspace
-favorite_files_list.json
+
+# Package Control stuff
 Package Control.ca*
 Package Control.last-run
 Package Control.list
-subclrschm*
+
+# Project files
+*.sublime-project
+*.sublime-workspace
+
+# Sensitive Information
 User.sublime-completions
+favorite_files_list.json
+GitHub.sublime-settings
