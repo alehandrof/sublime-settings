@@ -1,5 +1,7 @@
 # Binary
 subclrschm*
+ColorPicker/
+*.cache
 
 # Documentation
 *.md
@@ -13,7 +15,8 @@ Package Control.list
 *.sublime-project
 *.sublime-workspace
 
-# Sensitive Information
-User.sublime-completions
+# Session or Sensitive Information
+ChangeList.json
 favorite_files_list.json
 GitHub.sublime-settings
+User.sublime-completions
