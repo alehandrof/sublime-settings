@@ -33,16 +33,19 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown",
-		"ChangeList",
-		"Terminal",
 		"Markdown Preview",
-		"MarkdownEditing",
+		"Syntax Manager",
+		"AlignTab",
+		"Terminal",
 		"knockdown",
-		"EasyMotion",
+		"ChangeList",
+		"Markdown",
+		"MarkdownEditing",
+		"FileBrowser",
+		"SmartMarkdown",
 		"AdvancedNewFile",
-		"DictionaryAutoComplete"
+		"Vintage",
+		"All Autocomplete"
 	],
 	"indent_guide_options":
 	[
