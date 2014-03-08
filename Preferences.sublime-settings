@@ -19,7 +19,7 @@
 		"*.ttf",
 		"*.zip"
 	],
-	"color_scheme": "Packages/User/Writerly - Light (SL).tmTheme",
+	"color_scheme": "Packages/Writerly/Wannabe.tmTheme",
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"folder_exclude_patterns":
 	[
@@ -42,7 +42,6 @@
 		"Markdown",
 		"MarkdownEditing",
 		"FileBrowser",
-		"SmartMarkdown",
 		"AdvancedNewFile",
 		"Vintage",
 		"All Autocomplete"
