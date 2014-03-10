@@ -6,7 +6,7 @@
     // "plain_text_autopair": true,
     "auto_match_enabled": false,
     "detect_indentation": false,
-	"extensions":
+	/*"extensions":
 	[
 		// ".txt",
 		// ".text",
@@ -16,5 +16,5 @@
 		"mdwn",
 		"mkd",
 		"mkdn"
-	]
+	]*/
 }
