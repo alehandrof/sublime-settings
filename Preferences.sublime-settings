@@ -33,27 +33,27 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown Preview",
-		"Syntax Manager",
-		"AlignTab",
-		"Terminal",
-		"knockdown",
+		"All Autocomplete",
 		"ChangeList",
-		"Markdown",
-		"MarkdownEditing",
-		"FileBrowser",
-		"AdvancedNewFile",
 		"Vintage",
-		"All Autocomplete"
+		"Terminal",
+		"FileBrowser",
+		"Syntax Manager",
+		"Markdown",
+		"AdvancedNewFile",
+		"knockdown"
 	],
 	"indent_guide_options":
 	[
 		"draw_active"
 	],
 	"margin": 0,
+	"match_brackets": false,
+	"match_tags": false,
 	"mouse_wheel_switches_tabs": true,
 	"overlay_scroll_bars": "enabled",
 	"soda_folder_icons": true,
+	"spacefunk_sidebar_light": true,
 	"theme": "Soda Light 3.sublime-theme",
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true,

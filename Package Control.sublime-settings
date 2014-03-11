@@ -2,7 +2,10 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"3024 Color Scheme",
+		"Abacus",
 		"AdvancedNewFile",
+		"Alignment",
 		"AlignTab",
 		"All Autocomplete",
 		"AutoPEP8",
@@ -35,6 +38,7 @@
 		"Inc-Dec-Value",
 		"Jump Along Indent",
 		"knockdown",
+		"LaTeXTools",
 		"Ledger syntax highlighting",
 		"LESS",
 		"LineEndings",
@@ -42,14 +46,15 @@
 		"Markdown Preview",
 		"MarkdownEditing",
 		"MoveTab",
-		"OmniMarkupPreviewer",
 		"Open URL",
 		"Open-Include",
 		"Origami",
 		"Package Control",
+		"PackageResourceViewer",
 		"Pandoc",
 		"Pandown",
 		"PlistJsonConverter",
+		"RawLineEdit",
 		"RegReplace",
 		"Saccades",
 		"Sass",
@@ -61,6 +66,7 @@
 		"SideBarEnhancements",
 		"Smart Title Case",
 		"SmartCursor",
+		"SortTabs",
 		"sublime-github",
 		"SublimeLinter",
 		"SublimeLinter-html-tidy",
@@ -70,12 +76,12 @@
 		"SuperNavigator",
 		"Syntax Manager",
 		"Table Editor",
+		"TabsExtra",
 		"TabsToTable",
 		"Tag",
 		"Terminal",
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
-		"VAlign",
 		"WordCount",
 		"WordHighlight"
 	],
@@ -83,6 +89,8 @@
 	[
 		"https://github.com/Arood/Super-Zen/",
 		"https://github.com/bizoo/SmartCursor",
-		"https://github.com/facelessuser/SerializedDataConverter"
+		"https://github.com/facelessuser/SerializedDataConverter",
+		"https://github.com/facelessuser/TabsExtra",
+		"https://github.com/dizzywhip/sublime_valign"
 	]
 }
