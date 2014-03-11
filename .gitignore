@@ -20,6 +20,9 @@ ChangeList.json
 favorite_files_list.json
 GitHub.sublime-settings
 User.sublime-completions
+Ledger.sublime-completions
 
-# SublimeLinter Color Schemes
+# Junk
 *(SL).tmTheme*
+*conflicted copy*
+*.foo
