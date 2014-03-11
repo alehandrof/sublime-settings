@@ -34,6 +34,9 @@
     // Bind "X/HTML: Wrap Selection With Tag"
     { "keys": ["ctrl+alt+t"], "command": "insert_snippet", "args": {"name": "Packages/XML/long-tag.sublime-snippet"}, "context": [ { "key": "selector", "operator": "equal", "operand": "text.html, text.xml", "match_all": true } ] },
 
+    // Bind reindent
+    { "keys": ["ctrl+alt+i"], "command": "reindent" },
+
 
     /*** PLUGINS ***/
 
