@@ -11,5 +11,7 @@
     "font_face": "Liberation Mono", "font_size": 11, "line_padding_bottom": 3, "line_padding_top": 3,
 	*/
 
-	"font_face": "Consolas", "font_size": 10.5, "line_padding_bottom": 2, "line_padding_top": 2,
+    "font_face": "Source Code Pro",
+    "font_face": "Consolas", "font_size": 10.5, "line_padding_bottom": 2, "line_padding_top": 2,
+    "font_face": "Cousine", "font_size": 10, "line_padding_bottom": 2, "line_padding_top": 2,
 }
