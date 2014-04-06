@@ -38,17 +38,15 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"FileBrowser",
-		"Markdown",
-		"knockdown",
-		"Origami",
 		"Vintage",
+		"FileBrowser",
 		"Terminal",
+		"Origami",
 		"AdvancedNewFile",
-		"Syntax Manager",
-		"SmartMarkdown",
-		"ChangeList",
-		"All Autocomplete"
+		"knockdown",
+		"Markdown",
+		"All Autocomplete",
+		"Syntax Manager"
 	],
 	"indent_guide_options":
 	[
