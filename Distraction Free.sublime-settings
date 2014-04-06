@@ -1,19 +1,35 @@
 {
-/* Font */
+    /* Font */
     "font_face": "Courier Prime",
     "font_size": 14,
     "line_padding_bottom": 3,
     "line_padding_top": 7,
 
-/* Caret */
-    "wide_caret": true,
+    "font_face": "Nitti Pro",
+    "font_size": 18, "line_padding_bottom": 5, "line_padding_top": 5,
+    "font_size": 19, "line_padding_bottom": 5, "line_padding_top": 5,
+    "font_size": 20, "line_padding_bottom": 6, "line_padding_top": 6,
+    "font_size": 16, "line_padding_bottom": 4, "line_padding_top": 4,
+
+    /* Caret */
+    // "wide_caret": true,
     // "caret_style": "solid",
     // "inverse_caret_state": true,
+    "caret_style": "solid",
+    "caret_extra_width": 1,
+    "caret_extra_top": 3,
+    "caret_extra_bottom": 3,
 
-/* Misc Settings */
-    "typewriter_mode_scrolling" : true,
-    "auto_complete": true,
+
+    /* Misc Settings */
+    "typewriter_mode_scrolling": true,
+    // "auto_complete": true,
     // "auto_match_enabled": false,
     // "gutter": true,
-    "wrap_width": 65 // // // 73 (Typewriters); 67 (Bringhurst); 65 (iA)
+
+    /* Wrap width */
+    "wrap_width": 73, // Typewriters
+    "wrap_width": 67, // Bringhurst
+    "wrap_width": 65, // (iA)
+    "wrap_width": 55, // (Prachett)
 }
