@@ -15,7 +15,7 @@
             "scopes": [
                 "source.python"
             ],
-            "settings":{
+            "settings": {
                 "rulers": [80]
             }
         }
