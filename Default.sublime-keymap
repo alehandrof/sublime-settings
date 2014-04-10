@@ -49,7 +49,11 @@
 
 	// ScopeHunter
     { "keys": ["alt+shift+c"], "command": "toggle_selection_scope" },
-    // { "keys": ["ctrl+shift+alt+p"], "command": "get_selection_scope" },
+
+    // Terminal
+    { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+    { "keys": ["c+super+t"], "command": "open_terminal" },
+    { "keys": ["c+super+alt+t"], "command": "open_terminal_project_folder" },
 
     // Fuzzy Nav
     { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
