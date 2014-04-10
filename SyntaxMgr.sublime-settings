@@ -5,7 +5,7 @@
                 "text.html",
                 "source.css",
                 "source.less",
-                "source.scss"
+                "source.scss",
             ],
             "settings": {
                 "tab_size": 2
@@ -13,12 +13,29 @@
         },
         { // Rulers
             "scopes": [
-                "source.python"
+                "source.python",
             ],
             "settings": {
-                "rulers": [80]
+                "rulers": [80],
             }
-        }
+        },
+        { // Tabs using spaces
+            "scopes": [
+                "source.yaml",
+                "source.yaml-tmlanguage",
+            ],
+            "settings": {
+                "translate_tabs_to_spaces": true,
+            }
+        },
+        { // Tabs using tabs
+            "scopes": [
+                "source.html.markdown",
+            ],
+            "settings": {
+                "translate_tabs_to_spaces": false,
+            }
+        },
     ]
 }
 
