@@ -41,24 +41,21 @@
      * PLUGINS
      */
 
+    // AlignTab
+    { "keys": ["ctrl+\\"], "command": "align_tab", "args": { "user_input" : "\\|" }, "context": [ { "key": "selector", "operator": "equal", "operand": "text.plain, text.html.markdown", "match_all": true } ] },
+
+    // Fuzzy Nav
+    { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
+    { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
+
+    // Find++
+    { "keys": ["ctrl+alt+f"], "command": "fpp_find_in_project" },
+
     // Git
     { "keys": ["ctrl+shift+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
     { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
     { "keys": ["ctrl+super+q"], "command": "git_quick_commit" },
     { "keys": ["ctrl+super+c"], "command": "run_macro_file", "args": { "file": "res://Packages/User/Super Git Commit.sublime-macro" } },
-
-	// ScopeHunter
-    { "keys": ["alt+shift+c"], "command": "toggle_selection_scope" },
-
-    // Terminal
-    { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
-    { "keys": ["c+super+t"], "command": "open_terminal" },
-    { "keys": ["c+super+alt+t"], "command": "open_terminal_project_folder" },
-
-    // Fuzzy Nav
-    { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
-    { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
-    // { "keys": ["ctrl+s"], "command": "fuzzy_save_file" },
 
     // QuickCal
     { "keys": ["ctrl+super+alt+c"], "command": "calendar" },
@@ -66,8 +63,8 @@
     { "keys": ["alt+right"], "command": "calendar_month_nav", "context": [ { "key": "calendar_view" } ], "args": { "reverse": false } },
     { "keys": ["alt+left"], "command": "calendar_month_nav", "context": [ { "key": "calendar_view" } ], "args": { "reverse": true } },
 
-    // Typewriter
-    { "keys": ["super+t"], "command": "run_macro_file", "args": { "file": "res://Packages/Typewriter/Typewriter Mode.sublime-macro" } },
+	// ScopeHunter
+    { "keys": ["alt+shift+c"], "command": "toggle_selection_scope" },
 
     // SmartCursor (replace standard up/down)
     { "keys": ["up"], "command": "smart_cursor", "args": {"cmd": "move", "by": "lines", "forward": false}, "context":
@@ -85,15 +82,18 @@
         ]
     },
 
-    // AlignTab
-    { "keys": ["ctrl+\\"], "command": "align_tab", "args": { "user_input" : "\\|" }, "context": [ { "key": "selector", "operator": "equal", "operand": "text.plain, text.html.markdown", "match_all": true } ] },
-
-    // Find++
-    { "keys": ["ctrl+alt+f"], "command": "fpp_find_in_project" },
-
     // SuperNavigator
     { "keys": ["alt+r"], "command": "super_navigate", "context": [ { "key": "panel_visible", "operator": "equal", "operand": false } ] },
     { "keys": ["shift+alt+r"], "command": "super_navigate", "args": { "allTabs": true } },
+
+    // Terminal
+    { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
+    { "keys": ["c+super+t"], "command": "open_terminal" },
+    { "keys": ["c+super+alt+t"], "command": "open_terminal_project_folder" },
+
+    // Typewriter
+    { "keys": ["super+t"], "command": "run_macro_file", "args": { "file": "res://Packages/Typewriter/Typewriter Mode.sublime-macro" } },
+
 
     /**
      * OVERTYPE CHARACTERS
