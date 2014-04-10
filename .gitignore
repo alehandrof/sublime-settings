@@ -15,8 +15,9 @@ Package Control.list*
 *.sublime-project
 *.sublime-workspace
 
-# Auto-generated, Session or
+# Auto-Generated or Session
 CalendarEvents/*
+ChangeList.json
 EasyDiff/*
 
 # Sensitive Information
@@ -30,3 +31,4 @@ User.sublime-completions
 *.foo
 *.tmp
 *conflicted copy*
+Color Schemes/*
