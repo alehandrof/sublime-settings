@@ -88,8 +88,8 @@
 
     // Terminal
     { "keys": ["ctrl+shift+t"], "command": "reopen_last_file" },
-    { "keys": ["c+super+t"], "command": "open_terminal" },
-    { "keys": ["c+super+alt+t"], "command": "open_terminal_project_folder" },
+    { "keys": ["ctrl+super+t"], "command": "open_terminal" },
+    { "keys": ["ctrl+super+alt+t"], "command": "open_terminal_project_folder" },
 
     // Typewriter
     { "keys": ["super+t"], "command": "run_macro_file", "args": { "file": "res://Packages/Typewriter/Typewriter Mode.sublime-macro" } },
