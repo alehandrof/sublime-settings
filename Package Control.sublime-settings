@@ -2,7 +2,9 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"AAAPackageDev",
 		"Abacus",
+		"AdvancedNewFile",
 		"Alignment",
 		"AlignTab",
 		"AutoPEP8",
@@ -28,6 +30,7 @@
 		"Generic Config",
 		"GitGutter",
 		"HTML-CSS-JS Prettify",
+		"ImprovedMacros",
 		"Inc-Dec-Value",
 		"Jump Along Indent",
 		"LaTeXTools",
@@ -69,11 +72,13 @@
 		"Theme - Soda",
 		"Tomorrow Color Schemes",
 		"WordCount",
-		"WordHighlight"
+		"WordHighlight",
+		"YAML Nav"
 	],
 	"repositories":
 	[
 		"https://github.com/Arood/Super-Zen/",
-		"https://github.com/bizoo/SmartCursor"
+		"https://github.com/bizoo/SmartCursor",
+		"https://github.com/skuroda/ImprovedMacros"
 	]
 }
