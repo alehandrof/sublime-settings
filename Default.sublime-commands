@@ -3,6 +3,24 @@
 	{ "command": "open_in_browser", "caption": "Open in Browser" },
     { "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}, "caption": "Open Containing Folder…" },
 
+
+    // Git Macros
+    // { "command": "run_macro_file", "args": {"file": "res://Packages/User/Macros/Git - Commit Current File.sublime-macro"}, "caption": "Git: Commit Current File (Macro)" },
+    // { "command": "run_macro_file", "args": {"file": "res://Packages/User/Macros/Git- Commit Multiple Files.sublime-macro"}, "caption": "Git: Commit Multiple Files (Macro)" },
+
+    /*{
+        "caption": "Git: Commit Current File (Macro)",
+        "command": "run_multiple_commands",
+        "args": {
+            "commands":
+            [
+                { "command": "git_reset_head_all" },
+                { "command": "git_add" },
+                { "command": "git_commit" }
+            ]
+        }
+    },*/
+
     // User/InsertDate.py
     { "command": "insert_date", "caption": "Insert Date" },
 
