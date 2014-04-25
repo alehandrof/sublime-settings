@@ -1,15 +1,10 @@
 {
     /* Font */
-    "font_face": "Courier Prime",
-    "font_size": 14,
-    "line_padding_bottom": 3,
-    "line_padding_top": 7,
-
     "font_face": "Nitti Pro",
-    "font_size": 18, "line_padding_bottom": 5, "line_padding_top": 5,
     "font_size": 19, "line_padding_bottom": 5, "line_padding_top": 5,
     "font_size": 20, "line_padding_bottom": 6, "line_padding_top": 6,
     "font_size": 16, "line_padding_bottom": 4, "line_padding_top": 4,
+    "font_size": 18, "line_padding_bottom": 5, "line_padding_top": 5,
 
     /* Caret */
     // "wide_caret": true,

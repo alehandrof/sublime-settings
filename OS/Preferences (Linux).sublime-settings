@@ -1,14 +1,10 @@
 {
-	/*
-	"font_face": "Consolas", "font_size": 11.5, "line_padding_bottom": 4, "line_padding_top": 3,
-	"font_face": "Anonymous Pro Minus", "font_size": 11, "line_padding_bottom": 3, "line_padding_top": 3,
-	"font_face": "Source Code Pro", "font_size": 10, "line_padding_bottom": 1, "line_padding_top": 2,
-	"font_face": "Source Code Pro", "font_size": 10.5, "line_padding_bottom": 2, "line_padding_top": 2,
-	"font_face": "MesloLGLDZ", "font_size": 9.5, "line_padding_bottom": 1, "line_padding_top": 2,
-    "font_face": "DejaVu LGC Sans Mono", "font_size": 10, "line_padding_bottom": 3, "line_padding_top": 3,
-    "font_face": "Meslo LG L", "font_size": 10, "line_padding_bottom": 1, "line_padding_top": 1,
-	*/
+    "font_face": "FiraMonoOT",
+    "font_size": 10.5,
 
-    // "font_face": "Liberation Mono", "font_size": 10.5, "line_padding_bottom": 3, "line_padding_top": 3,
-    // "font_face": "Cousine", "font_size": 11, "line_padding_bottom": 3, "line_padding_top": 3,
+    "line_padding_bottom": 0,
+    "caret_extra_bottom": 0,
+
+    "line_padding_top": 0,
+    "caret_extra_top": 0,
 }

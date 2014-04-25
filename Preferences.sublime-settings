@@ -19,8 +19,6 @@
 		"*.ttf",
 		"*.zip"
 	],
-	"caret_extra_bottom": 3,
-	"caret_extra_top": 3,
 	"caret_extra_width": 1,
 	"caret_style": "solid",
 	"color_scheme": "Packages/Writerly/Wannabe.tmTheme",
@@ -34,21 +32,18 @@
 		".sass-cache",
 		"*_files"
 	],
-	"font_face": "Cousine",
-	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Vintage",
 		"Markdown",
-		"Vintage"
+		"MarkdownEditing"
 	],
 	"indent_guide_options":
 	[
 		"draw_active"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 3,
 	"margin": 0,
 	"match_brackets": false,
 	"match_tags": false,

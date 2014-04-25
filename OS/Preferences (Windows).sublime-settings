@@ -1,18 +1,10 @@
 {
-	// "font_options": ["gdi"],
-	// "font_options": ["directwrite"],
+    "font_face": "Cousine",
+    "font_size": 11,
 
-	/*
-	"font_face": "Source Code Pro", "font_size": 10.5, "line_padding_bottom": 2, "line_padding_top": 2,
-	"font_face": "Consolas", "font_size": 12, "font_face": "Liberation Mono", "font_size": 10.5, "line_padding_bottom": 3, "line_padding_top": 3,
-    "font_face": "DejaVu LGC Sans Mono", "font_size": 10.5, "line_padding_bottom": 4, "line_padding_top": 4,
-    "font_face": "Monaco", "font_size": 10, "line_padding_bottom": 4, "line_padding_top": 4,
-    "font_face": "Meslo LG L", "font_size": 10, "line_padding_bottom": 1, "line_padding_top": 1,
-    "font_face": "Liberation Mono", "font_size": 11, "line_padding_bottom": 3, "line_padding_top": 3,
-	*/
+    "line_padding_bottom": 2,
+    "caret_extra_bottom": 2,
 
-    // "font_face": "Source Code Pro",
-    // "font_face": "Consolas", "font_size": 10.5, "line_padding_bottom": 2, "line_padding_top": 2,
-    // "font_face": "Cousine", "font_size": 10, "line_padding_bottom": 2, "line_padding_top": 2,
-    // "font_face": "Cousine", "font_size": 11, "line_padding_bottom": 3, "line_padding_top": 3,
+    "line_padding_top": 3,
+    "caret_extra_top": 3,
 }
