@@ -7,12 +7,12 @@
     { "keys": ["ctrl+q"], "command": "unbound" },
 
     // Unbind increase/decrease font size
-    { "keys": ["ctrl++"], "command": "unbound" },
-    { "keys": ["ctrl+="], "command": "unbound" },
+    // { "keys": ["ctrl++"], "command": "unbound" },
+    // { "keys": ["ctrl+="], "command": "unbound" },
+    // { "keys": ["ctrl+-"], "command": "unbound" },
+    // { "keys": ["ctrl+equals"], "command": "unbound" },
     { "keys": ["ctrl+keypad_plus"], "command": "unbound" },
-    { "keys": ["ctrl+-"], "command": "unbound" },
     { "keys": ["ctrl+keypad_minus"], "command": "unbound" },
-    { "keys": ["ctrl+equals"], "command": "unbound" },
     { "keys": ["ctrl+shift+equals"], "command": "unbound" },
     { "keys": ["ctrl+keypad_plus"], "command": "unbound" },
     { "keys": ["ctrl+shift+keypad_plus"], "command": "unbound" },

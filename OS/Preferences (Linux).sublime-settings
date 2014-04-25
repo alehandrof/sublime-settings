@@ -1,6 +1,7 @@
 {
     "font_face": "FiraMonoOT",
     "font_size": 10.5,
+    "revert_font_size": 10.5,
 
     "line_padding_bottom": 0,
     "caret_extra_bottom": 0,

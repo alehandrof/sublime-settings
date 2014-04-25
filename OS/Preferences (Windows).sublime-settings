@@ -1,6 +1,7 @@
 {
     "font_face": "Cousine",
     "font_size": 11,
+    "revert_font_size": 11,
 
     "line_padding_bottom": 2,
     "caret_extra_bottom": 2,
