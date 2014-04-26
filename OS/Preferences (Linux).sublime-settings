@@ -1,11 +1,12 @@
 {
     "font_face": "FiraMonoOT",
-    "font_size": 10.5,
-    "revert_font_size": 10.5,
 
-    "line_padding_bottom": 0,
-    "caret_extra_bottom": 0,
+    "font_size": 11,
+    "revert_font_size": 11,
 
-    "line_padding_top": 0,
-    "caret_extra_top": 0,
+    "line_padding_bottom": -1,
+    "caret_extra_bottom": -1,
+
+    "line_padding_top": -1,
+    "caret_extra_top": -1,
 }
