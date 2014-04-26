@@ -1,17 +1,16 @@
 {
     /* Font */
-    "font_face": "Nitti Pro",
-    "font_size": 19, "line_padding_bottom": 5, "line_padding_top": 5,
-    "font_size": 20, "line_padding_bottom": 6, "line_padding_top": 6,
-    "font_size": 16, "line_padding_bottom": 4, "line_padding_top": 4,
-    "font_size": 18, "line_padding_bottom": 5, "line_padding_top": 5,
+    "font_face": "FiraMonoOT",
+
+    "font_size": 16,
+    "line_padding_bottom": 2,
+    "caret_extra_bottom": 2,
+    "line_padding_top": 2,
+    "caret_extra_top": 2,
 
     /* Caret */
     "caret_style": "solid",
-    "caret_extra_width": 1,
-    "caret_extra_top": 3,
-    "caret_extra_bottom": 3,
-
+    "caret_extra_width": 2,
 
     /* Misc Settings */
     "typewriter_mode_scrolling": true,
