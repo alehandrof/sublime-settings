@@ -1,0 +1,11 @@
+{
+    "convert_on_save": [
+        // Enable or add what you would like
+        {"ext": "tmLanguage.JSON", "command": "json_to_plist"},
+        {"ext": "tmPreferences.JSON", "command": "json_to_plist"},
+        {"ext": "tmTheme.JSON", "command": "json_to_plist"},
+        {"ext": "tmLanguage.YAML", "command": "yaml_to_plist"},
+        {"ext": "tmPreferences.YAML", "command": "yaml_to_plist"},
+        {"ext": "tmTheme.YAML", "command": "yaml_to_plist"}
+    ]
+}

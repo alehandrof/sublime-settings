@@ -20,7 +20,7 @@
 
     /* Wrap width */
     "wrap_width": 73, // Typewriters
+    "wrap_width": 55, // (Prachett)
     "wrap_width": 67, // Bringhurst
     "wrap_width": 65, // (iA)
-    "wrap_width": 55, // (Prachett)
 }
