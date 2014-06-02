@@ -15,16 +15,16 @@
 		"*.gif",
 		"*.ico",
 		"*.jar",
-        "*.jpeg",
-        "*.jpg",
-        "*.mp3",
-        "*.pdf",
-        "*.png",
-        "*.rar",
-        "*.swf",
-        "*.tga",
-        "*.ttf",
-        "*.zip"
+		"*.jpeg",
+		"*.jpg",
+		"*.mp3",
+		"*.pdf",
+		"*.png",
+		"*.rar",
+		"*.swf",
+		"*.tga",
+		"*.ttf",
+		"*.zip"
 	],
 	"caret_extra_width": 1,
 	"caret_style": "solid",
@@ -39,16 +39,16 @@
 		".sass-cache",
 		"*_files"
 	],
-	"font_size": 11,
+	"font_size": 10,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
 		"knockdown",
-		"Vintage",
+		"MarkdownEditing",
 		"Git",
-		"Markdown",
-		"MarkdownEditing"
+		"Vintage",
+		"Markdown"
 	],
 	"indent_guide_options":
 	[
@@ -60,7 +60,8 @@
 	"mouse_wheel_switches_tabs": true,
 	"overlay_scroll_bars": "enabled",
 	"show_line_endings": true,
-	"theme": "Aprosopo Dark@st3.sublime-theme",
+	"theme": "Fizzy 3.sublime-theme",
+    "fizzy_classic_tabs": true,
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true
 }
