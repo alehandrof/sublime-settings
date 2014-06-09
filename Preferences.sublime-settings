@@ -1,10 +1,4 @@
 {
-	"aprosopo_dark_blue": true,
-	"aprosopo_dark_dirty_purple": true,
-	"aprosopo_dirty_bar": true,
-	"aprosopo_show_tab_close_buttons": true,
-	"aprosopo_show_tab_close_on_hover": true,
-	"aprosopo_solid_tab": true,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
 	"binary_file_patterns":
@@ -45,6 +39,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
 	"indent_guide_options":
