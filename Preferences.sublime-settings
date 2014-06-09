@@ -31,6 +31,7 @@
 	"color_scheme": "Packages/Writerly/Wannabe.tmTheme",
 	"default_line_ending": "unix",
 	"dictionary": "Packages/Language - English/en_GB.dic",
+	"fizzy_classic_tabs": true,
 	"folder_exclude_patterns":
 	[
 		"ARCHIVE",
@@ -39,16 +40,16 @@
 		".sass-cache",
 		"*_files"
 	],
-	"font_size": 10,
+	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"knockdown",
 		"MarkdownEditing",
-		"Git",
+		"Markdown",
 		"Vintage",
-		"Markdown"
+		"knockdown",
+		"Git"
 	],
 	"indent_guide_options":
 	[
@@ -60,8 +61,8 @@
 	"mouse_wheel_switches_tabs": true,
 	"overlay_scroll_bars": "enabled",
 	"show_line_endings": true,
-	"theme": "Fizzy 3.sublime-theme",
-    "fizzy_classic_tabs": true,
+	"soda_classic_tabs": true,
+	"theme": "Soda Light 3.sublime-theme",
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true
 }

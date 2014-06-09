@@ -3,7 +3,6 @@
 	"installed_packages":
 	[
 		"AAAPackageDev",
-		"Abacus",
 		"AdvancedNewFile",
 		"Alignment",
 		"AlignTab",
@@ -13,6 +12,8 @@
 		"BetterGoTo",
 		"BracketHighlighter",
 		"BufferScroll",
+		"ChangeList",
+		"Character Table",
 		"ColorPicker",
 		"CSScheme",
 		"DocBlockr",
@@ -44,6 +45,7 @@
 		"MarkdownEditing",
 		"MarkdownTOC",
 		"MoveTab",
+		"Open URL",
 		"Open-Include",
 		"Package Control",
 		"PackageResourceViewer",
@@ -66,12 +68,12 @@
 		"SmartCursor",
 		"SortTabs",
 		"Strapdown Markdown Preview",
+		"Sublimall",
 		"sublime-github",
 		"SublimeGit",
 		"Sublimerge Pro",
 		"sublimetext2-todotxt",
 		"SublimeTmpl",
-		"Super-Zen",
 		"SuperNavigator",
 		"Syntax Manager",
 		"Table Editor",
@@ -89,7 +91,6 @@
 	],
 	"repositories":
 	[
-		"https://github.com/Arood/Super-Zen/",
 		"https://github.com/bizoo/SmartCursor",
 		"https://github.com/skuroda/ImprovedMacros",
 		"https://github.com/knagy/sublimetext2-todotxt"
