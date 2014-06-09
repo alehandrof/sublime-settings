@@ -45,11 +45,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"MarkdownEditing",
-		"Markdown",
-		"Vintage",
-		"knockdown",
-		"Git"
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
@@ -62,7 +58,6 @@
 	"overlay_scroll_bars": "enabled",
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
-	"theme": "Soda Light 3.sublime-theme",
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true
 }
