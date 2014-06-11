@@ -2,7 +2,21 @@
 	"auto_upgrade_last_run": null,
 	"installed_packages":
 	[
+		"BracketHighlighter",
+		"ColorPicker",
+		"CSScheme",
+		"Dracula Color Scheme",
+		"Find++",
 		"FuzzyFileNav",
+		"LESS",
+		"Monokai Extended",
+		"OmniMarkupPreviewer",
+		"PackageResourceViewer",
+		"Sass",
+		"ScopeHunter",
+		"SCSS",
+		"SideBarEnhancements",
+		"Smart Title Case",
 		"SmartCursor",
 		"SublimeGit"
 	],
