@@ -39,8 +39,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Sass",
 		"Markdown",
+		"Sass",
 		"Vintage"
 	],
 	"indent_guide_options":

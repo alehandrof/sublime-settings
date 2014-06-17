@@ -5,7 +5,9 @@
 		"BracketHighlighter",
 		"ColorPicker",
 		"CSScheme",
+		"Diffy",
 		"Dracula Color Scheme",
+		"EasyDiff",
 		"Find++",
 		"FuzzyFileNav",
 		"LESS",
@@ -18,7 +20,9 @@
 		"SideBarEnhancements",
 		"Smart Title Case",
 		"SmartCursor",
-		"SublimeGit"
+		"SublimeGit",
+		"Synesthesia",
+		"Zeal"
 	],
 	"repositories":
 	[
