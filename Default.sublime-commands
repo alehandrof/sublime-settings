@@ -38,6 +38,10 @@
     { "caption": "Preferences: Key Bindings - User's Default", "command": "open_file", "args": { "file": "${packages}/User/Default.sublime-keymap" } },
     { "caption": "Preferences: Distraction Free Settings", "command": "open_file", "args": { "file": "${packages}/User/Distraction Free.sublime-settings" } },
 
+    // Terminal
+    { "caption": "Terminal: Open in Current Folder", "command": "open_terminal" },
+    { "caption": "Terminal: Open in Project Folder", "command": "open_terminal_project_folder" },
+
     // Zen Tabs
     { "command": "zen_tabs_reload", "caption": "Zen Tabs: Reload Settings" },
     { "command": "switch_tabs", "caption": "Zen Tabs: Switch Tabs" }
