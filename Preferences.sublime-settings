@@ -1,4 +1,13 @@
 {
+	"aprosopo_active_bar": true,
+	"aprosopo_combined_dirty_active_bar": true,
+	"aprosopo_dark_blue": true,
+	"aprosopo_dark_dirty_red": true,
+	"aprosopo_dirty_bar": true,
+	"aprosopo_hide_folder_expand_icon": true,
+	"aprosopo_show_tab_close_buttons": true,
+	"aprosopo_show_tab_close_on_hover": true,
+	"atomic_save": false,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
 	"binary_file_patterns":
@@ -39,9 +48,9 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Markdown",
+		"Vintage",
 		"Sass",
-		"Vintage"
+		"Markdown"
 	],
 	"indent_guide_options":
 	[
@@ -54,6 +63,7 @@
 	"overlay_scroll_bars": "enabled",
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
+	"theme": "Aprosopo Dark@st3.sublime-theme",
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true
 }
