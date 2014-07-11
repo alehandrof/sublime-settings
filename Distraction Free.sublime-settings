@@ -3,10 +3,10 @@
     "font_face": "Fira Mono",
 
     "font_size": 16,
-    "line_padding_bottom": 2,
-    "caret_extra_bottom": 2,
-    "line_padding_top": 2,
-    "caret_extra_top": 2,
+    "line_padding_bottom": 1,
+    "caret_extra_bottom": 1,
+    "line_padding_top": 1,
+    "caret_extra_top": 1,
 
     /* Caret */
     "caret_style": "solid",
@@ -19,8 +19,8 @@
     // "gutter": true,
 
     /* Wrap width */
-    "wrap_width": 73, // Typewriters
     "wrap_width": 55, // (Prachett)
-    "wrap_width": 67, // Bringhurst
     "wrap_width": 65, // (iA)
+    "wrap_width": 73, // Typewriters
+    "wrap_width": 67, // Bringhurst
 }
