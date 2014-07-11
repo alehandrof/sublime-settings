@@ -48,6 +48,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Color Highlighter",
 		"Vintage",
 		"Sass",
 		"Markdown"
@@ -55,6 +56,12 @@
 	"indent_guide_options":
 	[
 		"draw_active"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log",
+		".git/*",
+		".sass-cache/*"
 	],
 	"margin": 0,
 	"match_brackets": false,
