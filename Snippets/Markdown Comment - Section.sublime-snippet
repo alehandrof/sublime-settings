@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+// ${1:Section}
+// ==========================================================================
+$0
+]]></content>
+    <tabTrigger>mdcs</tabTrigger> /* Markdown Comment Section */
+    <!-- <scope>source.css, source.scss, source.css.less</scope> -->
+</snippet>
