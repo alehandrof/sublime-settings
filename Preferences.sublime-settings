@@ -43,15 +43,17 @@
 		".sass-cache",
 		"*_files"
 	],
+	"font_face": "Fira Mono",
 	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Color Highlighter",
-		"Vintage",
+		"MarkDo",
+		"Markdown",
 		"Sass",
-		"Markdown"
+		"Vintage",
+		"Color Highlighter"
 	],
 	"indent_guide_options":
 	[
@@ -68,6 +70,7 @@
 	"match_tags": false,
 	"mouse_wheel_switches_tabs": true,
 	"overlay_scroll_bars": "enabled",
+	"revert_font_size": 11,
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
 	"theme": "Aprosopo Dark@st3.sublime-theme",

@@ -1,25 +1,9 @@
 {
     "font_options": ["directwrite"],
 
-    /*"font_face": "Cousine",
+    // "line_padding_bottom": 1,
+    // "caret_extra_bottom": 1,
 
-    "font_size": 11,
-    "revert_font_size": 11,
-
-    "line_padding_bottom": 2,
-    "caret_extra_bottom": 2,
-
-    "line_padding_top": 3,
-    "caret_extra_top": 3,*/
-
-    "font_face": "Fira Mono",
-
-    "font_size": 11,
-    "revert_font_size": 11,
-
-    // "line_padding_bottom": -1,
-    // "caret_extra_bottom": -1,
-
-    // "line_padding_top": -1,
-    // "caret_extra_top": -1,
+    // "line_padding_top": 1,
+    // "caret_extra_top": 1,
 }

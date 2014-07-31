@@ -1,9 +1,4 @@
 {
-    "font_face": "Fira Mono",
-
-    "font_size": 11,
-    "revert_font_size": 11,
-
     "line_padding_bottom": -1,
     "caret_extra_bottom": -1,
 
