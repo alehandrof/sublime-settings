@@ -19,8 +19,9 @@
     // "gutter": true,
 
     /* Wrap width */
-    "wrap_width": 55, // (Prachett)
-    "wrap_width": 65, // (iA)
-    "wrap_width": 73, // Typewriters
+    "wrap_width": 55, // Prachett
+    "wrap_width": 65, // iA Writer
+    "wrap_width": 73, // Typewriter
     "wrap_width": 67, // Bringhurst
+    "wrap_width": 66, // 2.5 alphabets (Butterick)
 }
