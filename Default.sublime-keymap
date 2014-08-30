@@ -41,8 +41,11 @@
      * PLUGINS
      */
 
+     // Alignment
+     { "keys": ["ctrl+alt+]"], "command": "alignment" },
+
     // AlignTab
-    { "keys": ["ctrl+\\"], "command": "align_tab", "args": { "user_input" : "\\|" }, "context": [ { "key": "selector", "operator": "equal", "operand": "text.plain, text.html.markdown", "match_all": true } ] },
+    // { "keys": ["ctrl+\\"], "command": "align_tab", "args": { "user_input" : "\\|" }, "context": [ { "key": "selector", "operator": "equal", "operand": "text.plain, text.html.markdown", "match_all": true } ] },
 
     // Fuzzy Nav
     { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
