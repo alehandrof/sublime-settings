@@ -49,12 +49,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
+		"MarkDo",
 		"Markdown",
 		"Sass",
-		"Color Highlighter",
-		"MarkDo",
-		"SmartMarkdown"
+		"Vintage"
 	],
 	"indent_guide_options":
 	[
