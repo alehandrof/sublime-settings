@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+<script src="http://localhost:35729/livereload.js"></script>
+]]></content>
+    <tabTrigger>lr</tabTrigger> /* Live Reload */
+    <scope>text.html</scope>
+</snippet>
