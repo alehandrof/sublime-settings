@@ -54,6 +54,10 @@
     // Find++
     { "keys": ["ctrl+alt+f"], "command": "fpp_find_in_project" },
 
+    // FindCursor
+    { "keys": ["ctrl+."], "command": "find_cursor", "args": {"reverse": false, "pan": false} },
+    { "keys": ["ctrl+shift+."], "command": "find_cursor", "args": {"reverse": true, "pan": false} },
+
     // Git
     { "keys": ["ctrl+shift+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
     { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
