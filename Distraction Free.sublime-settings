@@ -2,11 +2,11 @@
     /* Font */
     "font_face": "Fira Mono",
 
-    "font_size": 16,
-    "line_padding_bottom": 1,
-    "caret_extra_bottom": 1,
-    "line_padding_top": 1,
-    "caret_extra_top": 1,
+    "font_size": 18,
+    "line_padding_bottom": 2,
+    "caret_extra_bottom": 2,
+    "line_padding_top": 2,
+    "caret_extra_top": 2,
 
     /* Caret */
     "caret_style": "solid",

@@ -11,11 +11,11 @@
     [
         // "txt",
         // "text",
-        "md",
-        "markdown",
-        "mdown",
-        "mdwn",
-        "mkd",
-        "mkdn"
+        // "md",
+        // "markdown",
+        // "mdown",
+        // "mdwn",
+        // "mkd",
+        // "mkdn"
     ]
 }
