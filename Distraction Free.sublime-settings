@@ -2,11 +2,11 @@
     /* Font */
     "font_face": "Fira Mono",
 
-    "font_size": 18,
-    "line_padding_bottom": 2,
-    "caret_extra_bottom": 2,
-    "line_padding_top": 2,
-    "caret_extra_top": 2,
+    "font_size": 20,
+    "line_padding_bottom": 5,
+    "caret_extra_bottom": 5,
+    "line_padding_top": 5,
+    "caret_extra_top": 5,
 
     /* Caret */
     "caret_style": "solid",
@@ -19,9 +19,9 @@
     // "gutter": true,
 
     /* Wrap width */
-    "wrap_width": 55, // Prachett
-    "wrap_width": 65, // iA Writer
-    "wrap_width": 73, // Typewriter
-    "wrap_width": 67, // Bringhurst
+    // "wrap_width": 55, // Prachett
+    // "wrap_width": 65, // iA Writer
+    // "wrap_width": 73, // Typewriter
+    // "wrap_width": 67, // Bringhurst
     "wrap_width": 66, // 2.5 alphabets (Butterick)
 }
