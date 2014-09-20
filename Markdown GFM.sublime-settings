@@ -1,0 +1,22 @@
+{
+    // "auto_complete_delay": 1000,
+    // "auto_complete_delay": 0,
+    "auto_complete": false,
+    "tab_size": 2,
+    "translate_tabs_to_spaces": false,
+    // "plain_text_autopair": true,
+    "auto_match_enabled": false,
+    "detect_indentation": false,
+    "wrap_width": 73,
+    "extensions":
+    [
+        // "txt",
+        // "text",
+        "md",
+        "markdown",
+        "mdown",
+        "mdwn",
+        "mkd",
+        "mkdn"
+    ]
+}
