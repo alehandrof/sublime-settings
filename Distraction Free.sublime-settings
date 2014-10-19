@@ -23,5 +23,6 @@
     // "wrap_width": 65, // iA Writer
     // "wrap_width": 73, // Typewriter
     // "wrap_width": 67, // Bringhurst
-    "wrap_width": 66, // 2.5 alphabets (Butterick)
+    // "wrap_width": 66, // 2.5 alphabets (Butterick)
+    "wrap_width": 61,
 }
