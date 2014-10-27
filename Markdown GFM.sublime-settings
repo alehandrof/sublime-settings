@@ -7,7 +7,7 @@
     // "plain_text_autopair": true,
     "auto_match_enabled": false,
     "detect_indentation": false,
-    "wrap_width": 73,
+    "wrap_width": 66,
     "extensions":
     [
         // "txt",
