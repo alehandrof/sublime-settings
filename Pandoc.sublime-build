@@ -1,0 +1,14 @@
+{
+	// "cmd": ["pandoc", "$file", "--smart", "--section-divs", "--email-obfuscation=none", "--to=html", "--output=$file_base_name.html"],
+	// "selector": "text.html.markdown",
+	"variants": [
+		{
+			"cmd": ["pandoc", "$file", "--smart", "--section-divs", "--email-obfuscation=none", "--standalone", "--to=html5", "--output=$file_base_name.html"],
+			"name": "Markdown -> HTML5 Standalone",
+		},
+		{
+			"cmd": ["pandoc", "$file", "--smart", "--section-divs", "--email-obfuscation=none", "--standalone", "--self-contained", "--to=html5", "--output=$file_base_name.html"],
+			"name": "Markdown -> HTML5 Self-Contained",
+		},
+	]
+}
