@@ -1,10 +1,14 @@
 {
-    "pandoc_args": [],
-    "pandoc_args_pdf": [],
+    "pandoc_args": [
+        "--smart",
+    ],
+    "pandoc_args_pdf": [
+        "-V", "fontsize:11pt",
+        "-V", "geometry:margin=1in",
+    ],
     "pandoc_args_docx": [],
     "pandoc_args_html": [
         "--email-obfuscation=none",
-        "--smart",
-        "--to=html5",
+        "--to=html5"
     ],
 }
