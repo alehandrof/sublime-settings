@@ -1,0 +1,6 @@
+---
+description: JS Script
+tabTrigger: js
+scope: text.html
+---
+<script src="${1:url}.js"></script>

@@ -1,0 +1,6 @@
+---
+description: CSS Link
+tabTrigger: css
+scope: text.html
+---
+<link href="${1:style}.css" rel="stylesheet" type="text/css" media="${2:all}">

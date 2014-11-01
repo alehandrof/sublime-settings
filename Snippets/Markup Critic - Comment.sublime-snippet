@@ -1,7 +1,0 @@
-<snippet>
-    <content><![CDATA[
-{>>$1<<}$0
-]]></content>
-    <tabTrigger>\{&gt;&gt;&lt;&lt;\}</tabTrigger>
-    <scope>text.html.markdown</scope>
-</snippet>

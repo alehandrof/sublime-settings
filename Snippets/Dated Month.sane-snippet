@@ -1,6 +1,7 @@
-<snippet>
-<!-- # 2014-$1 ($2) -->
-    <content><![CDATA[
+---
+description: Dated Month
+scope: text.html.markdown
+---
 - 2014-$1-01 | $0
 - 2014-$1-02 |
 - 2014-$1-03 |
@@ -32,7 +33,3 @@
 - 2014-$1-29 |
 - 2014-$1-30 |
 - 2014-$1-31 |
-]]></content>
-    <!-- <tabTrigger>datedmonth</tabTrigger> -->
-    <scope>text.html.markdown</scope>
-</snippet>

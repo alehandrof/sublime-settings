@@ -1,0 +1,8 @@
+---
+description: Markdown Comment Sub-Section
+tabTrigger: mdcss
+# scope: source.css, source.scss, source.css.less
+---
+// ${1:Section}
+// --------------------------------------------------------------------------
+$0

@@ -1,0 +1,7 @@
+---
+description: Markup Critic - Comment
+# tabTrigger: \{&gt;&gt;&lt;&lt;\}
+tabTrigger: {>><<}
+scope: text.html.markdown
+---
+{>>$1<<}$0
