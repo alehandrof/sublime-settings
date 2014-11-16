@@ -23,6 +23,7 @@ EasyDiff/*
 
 # Sensitive Information
 favorite_files_list.json
+Gist.sublime-settings
 GitHub.sublime-settings
 Ledger.sublime-completions
 Projects/*
