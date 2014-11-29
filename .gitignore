@@ -1,7 +1,8 @@
 # Binary
-subclrschm*
-ColorPicker/
 *.cache
+Color Highlighter/
+ColorPicker/
+subclrschm*
 
 # Documentation
 *.md
@@ -26,11 +27,14 @@ favorite_files_list.json
 Gist.sublime-settings
 GitHub.sublime-settings
 Ledger.sublime-completions
-Projects/*
+Projects/
+sftp_servers/
 Sublimall.sublime-settings
 SublimeGit.sublime-settings
+template/
 Toggl Timer.sublime-settings
 User.sublime-completions
+WakaTime.sublime-settings
 
 # Junk
 *(SL).tmTheme*
