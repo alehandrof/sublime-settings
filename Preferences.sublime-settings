@@ -56,10 +56,10 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"MarkDo",
+		"Markdown",
 		"CSS",
 		"BetterMarkdown",
-		"Markdown",
-		"MarkDo",
 		"Vintage"
 	],
 	"indent_guide_options":

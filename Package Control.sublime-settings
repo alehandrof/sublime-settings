@@ -3,6 +3,7 @@
 	"installed_packages":
 	[
 		"AAAPackageDev",
+		"Advanced CSV",
 		"Alignment",
 		"AutoFileName",
 		"BracketHighlighter",
@@ -16,6 +17,7 @@
 		"EditorConfig",
 		"Emmet Css Snippets",
 		"FileBrowser",
+		"FileHeader",
 		"Filter Lines",
 		"Find++",
 		"FindCursor",
@@ -41,6 +43,7 @@
 		"MultiEditUtils",
 		"Numix Theme",
 		"OmniMarkupPreviewer",
+		"Open in Relevant Window",
 		"PackageResourceViewer",
 		"Pandown",
 		"PlainTasks",
@@ -64,6 +67,7 @@
 		"Theme - Aprosopo",
 		"Theme - Soda",
 		"Toggl Timer",
+		"WakaTime",
 		"WordCount",
 		"Zeal",
 		"Zen Tabs"
