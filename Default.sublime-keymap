@@ -29,12 +29,14 @@
 
     // Easier access to Palette
     { "keys": ["alt+`"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl+shift+;"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 
     // Bind "X/HTML: Wrap Selection With Tag"
     { "keys": ["ctrl+alt+t"], "command": "insert_snippet", "args": {"name": "Packages/XML/long-tag.sublime-snippet"}, "context": [ { "key": "selector", "operator": "equal", "operand": "text.html, text.xml", "match_all": true } ] },
 
     // Bind reindent
-    { "keys": ["ctrl+alt+i"], "command": "reindent" },
+    { "keys": ["ctrl+alt+i"], "command": "reindent", "args": {"single_line": false} },
 
 
     /**
@@ -42,7 +44,8 @@
      */
 
      // Alignment
-     { "keys": ["ctrl+alt+]"], "command": "alignment" },
+     // { "keys": ["ctrl+alt+]"], "command": "alignment" },
+     { "keys": ["ctrl+alt+]"], "command": "valign" },
 
     // AlignTab
     // { "keys": ["ctrl+\\"], "command": "align_tab", "args": { "user_input" : "\\|" }, "context": [ { "key": "selector", "operator": "equal", "operand": "text.plain, text.html.markdown", "match_all": true } ] },
@@ -63,6 +66,9 @@
     { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Git: "} },
     { "keys": ["ctrl+super+q"], "command": "git_quick_commit" },
     { "keys": ["ctrl+super+c"], "command": "run_macro_file", "args": { "file": "res://Packages/User/Super Git Commit.sublime-macro" } },
+
+    { "keys": ["ctrl+alt+;"], "command": "project_manager" },
+
 
     // QuickCal
     { "keys": ["ctrl+super+alt+c"], "command": "calendar" },
