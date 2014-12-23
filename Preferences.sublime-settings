@@ -19,21 +19,23 @@
 	],
 	"binary_file_patterns":
 	[
-		"*.ogg",
 		"*.dds",
 		"*.eot",
+		"*.eps",
 		"*.gif",
 		"*.ico",
 		"*.jar",
 		"*.jpeg",
 		"*.jpg",
 		"*.mp3",
+		"*.ogg",
 		"*.pdf",
 		"*.png",
 		"*.rar",
 		"*.swf",
 		"*.tga",
 		"*.ttf",
+		"*.xcf",
 		"*.zip"
 	],
 	"caret_extra_width": 1,
@@ -51,16 +53,16 @@
 		"*_files"
 	],
 	"font_face": "Fira Mono",
-	"font_size": 11,
+	"font_size": 12,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Vintage",
-		"MarkDo",
 		"CSS",
 		"Markdown",
-		"BetterMarkdown"
+		"BetterMarkdown",
+		"Vintage",
+		"MarkDo"
 	],
 	"indent_guide_options":
 	[
@@ -69,7 +71,6 @@
 	"index_exclude_patterns":
 	[
 		"*.log",
-		"/home/alex/www/statamic/statamic/_app*",
 		".sass-cache/*",
 		".git/*"
 	],
