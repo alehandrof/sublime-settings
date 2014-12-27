@@ -3,6 +3,8 @@
 	{ "command": "open_in_browser", "caption": "Open in Browser" },
     { "command": "open_dir", "args": {"dir": "$file_path", "file": "$file_name"}, "caption": "Open Containing Folder…" },
 
+    // Built-in misc
+    { "caption": "View: Toggle Draw Centered",  "command": "toggle_setting", "args": {"setting": "draw_centered"} },
 
     // Git Macros
     // { "command": "run_macro_file", "args": {"file": "res://Packages/User/Macros/Git - Commit Current File.sublime-macro"}, "caption": "Git: Commit Current File (Macro)" },
