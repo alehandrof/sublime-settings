@@ -7,20 +7,15 @@ subclrschm*
 # Documentation
 *.md
 
-# Package Control stuff
-Package Control.ca*
-Package Control.last-run
-Package Control.list*
-
-# Project files
-*.sublime-project
-*.sublime-workspace
+# Package Control
+Package Control.*
+!Package Control.sublime-settings
 
 # Auto-Generated or Session
 *.sane.sublime-snippet
-CalendarEvents/*
+CalendarEvents/
 ChangeList.json
-EasyDiff/*
+EasyDiff/
 
 # Sensitive Information
 favorite_files_list.json
