@@ -1,5 +1,14 @@
 {
 	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2",
+		"ssl-linux"
+	],
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -33,6 +42,7 @@
 		"Glue",
 		"GraphvizPreview",
 		"Handlebars",
+		"HighlightWords",
 		"HTML5",
 		"Ignore Words",
 		"InsertDate",
@@ -48,6 +58,7 @@
 		"Numix Theme",
 		"Open in Relevant Window",
 		"Open-Include",
+		"Package Control",
 		"PackageResourceViewer",
 		"Pandown",
 		"PlainTasks",
