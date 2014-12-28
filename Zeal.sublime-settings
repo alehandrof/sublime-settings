@@ -1,0 +1,12 @@
+{
+  "language_mapping": {
+    "CSS":        {"lan": "css", "zeal_lang": "css"},
+    "HTML":       {"lang": "html", "zeal_lang": "html"},
+    "JavaScript": {"lang": "javascript", "zeal_lang": "javascript"},
+    "jQuery":     {"lang": "javascript", "zeal_lang": "jquery"},
+    "PHP":        {"lang": "php", "zeal_lang": "php"},
+    "Python":     {"lang": "python", "zeal_lang": "python"},
+    "Sass":       {"lang": "sass", "zeal_lang": "sass"},
+    "Scss":       {"lang": "scss", "zeal_lang": "sass"},
+  }
+}
