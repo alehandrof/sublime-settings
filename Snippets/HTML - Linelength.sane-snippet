@@ -1,0 +1,6 @@
+---
+description: A linelength of two-and-a-half alphabets
+scope: text.html
+---
+<p>abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
+<br>abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz</p>
