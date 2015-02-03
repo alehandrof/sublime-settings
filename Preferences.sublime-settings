@@ -53,16 +53,16 @@
 		"*_files"
 	],
 	"font_face": "Fira Mono",
-	"font_size": 12,
+	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"MarkDo",
 		"Markdown",
-		"CSS",
+		"MarkDo",
+		"Vintage",
 		"Sass",
-		"Vintage"
+		"CSS"
 	],
 	"indent_guide_options":
 	[
@@ -83,7 +83,11 @@
 	"revert_font_size": 11,
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
-	"theme": "Aprosopo Dark@st3.sublime-theme",
+	"spacegray_sidebar_font_large": true,
+	"spacegray_sidebar_tree_large": true,
+	"spacegray_tabs_font_large": true,
+	"spacegray_tabs_xlarge": true,
+	"theme": "Spacegray Eighties.sublime-theme",
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true
 }
