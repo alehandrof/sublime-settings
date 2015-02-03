@@ -1,7 +1,7 @@
 {
   "open_tasks_bullet": "-", // options: - | ❍ | ❑ | ■ | □ | ☐ | ▪ | ▫ | – | — ≡ → › | [ ]
-  "done_tasks_bullet": "+", // options: + | ✓ | ✔ | √ | [x]
-  "cancelled_tasks_bullet": "x", // options: x | ✘ | [-]
+  "done_tasks_bullet": "-", // options: + | ✓ | ✔ | √ | [x]
+  "cancelled_tasks_bullet": "-", // options: x | ✘ | [-]
   "before_tasks_bullet_margin": 1,
   "date_format": "(%y-%m-%d)",
   "done_tag": true, // related to @cancelled as well
@@ -10,9 +10,16 @@
   "indent_after_task": true, // indenting the next line after tasks
   "new_on_top": true, // how to sort archived tasks
 
-  "color_scheme": "Packages/PlainTasks/tasks.hidden-tmTheme",
-  "color_scheme": "Packages/Writerly/Wannabe.tmTheme",
-
+  // "color_scheme": "Packages/PlainTasks/tasks.hidden-tmTheme",
+  "color_scheme": "Packages/PlainTasks/tasks-gray.hidden-tmTheme",
+    // other bundled schemes:
+    //   Packages/PlainTasks/tasks-dark.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-eighties-colored.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-eighties-dark.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-gray.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-monokai.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-solarized-dark.hidden-tmTheme
+    //   Packages/PlainTasks/tasks-solarized-light.hidden-tmTheme
   "font_size": 11,
   "font_face": "Fira Mono",
   "draw_indent_guides": false,
@@ -20,11 +27,12 @@
   "gutter": true,
   "margin": 2,
   "tab_size": 2,
-  "translate_tabs_to_spaces": true,
+  "translate_tabs_to_spaces": false,
   "use_tab_stops": false,
   "match_brackets": false,
   "fold_buttons": true,
   "fade_fold_buttons": false,
+  "taskpaper_compatible": true,
   "extensions":
   [
     "TODO",
