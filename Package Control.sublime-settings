@@ -3,12 +3,6 @@
 	"in_process_packages":
 	[
 	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2",
-		"ssl-linux"
-	],
 	"installed_packages":
 	[
 		"AAAPackageDev",
@@ -27,7 +21,6 @@
 		"DistractionFreeWindow",
 		"DocBlockr",
 		"Dotfiles Syntax Highlighting",
-		"Dracula Color Scheme",
 		"EasyDiff",
 		"EditorConfig",
 		"Emmet Css Snippets",
@@ -45,6 +38,7 @@
 		"Glue",
 		"Handlebars",
 		"HighlightWords",
+		"HTML-CSS-JS Prettify",
 		"HTML5",
 		"Ignore Words",
 		"InsertDate",
@@ -52,12 +46,9 @@
 		"Ledger syntax highlighting",
 		"LESS",
 		"List stylesheet variables",
-		"Markmon real-time markdown preview",
 		"Missing Palette Commands",
-		"Monokai Extended",
 		"MoveTab",
 		"MultiEditUtils",
-		"Numix Theme",
 		"OmniMarkupPreviewer",
 		"Open in Relevant Window",
 		"Open-Include",
@@ -65,7 +56,6 @@
 		"PackageResourceViewer",
 		"Pandown",
 		"PlainTasks",
-		"Print to HTML",
 		"Project Manager",
 		"RevertFontSize",
 		"SaneSnippets",
@@ -78,14 +68,10 @@
 		"sublime-github",
 		"SublimeGit",
 		"SublimeLinter",
-		"Synesthesia",
+		"SublimeLinter-html-tidy",
 		"Syntax Highlighting for Sass",
 		"TabsExtra",
 		"Terminal",
-		"Theme - Aprosopo",
-		"Theme - Gravity",
-		"Theme - Soda",
-		"Theme - Spacegray",
 		"Toggl Timer",
 		"VAlign",
 		"WakaTime",
