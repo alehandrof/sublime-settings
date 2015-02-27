@@ -52,6 +52,8 @@
     { "keys": ["super+9"], "command": "fold_by_level", "args": {"level": 9} },
     { "keys": ["super+0"], "command": "unfold_all" },
 
+    // Build
+    { "keys": ["ctrl+super+b"], "command": "show_panel", "args": {"panel": "output.exec"} },
 
     /**
      * PLUGINS
