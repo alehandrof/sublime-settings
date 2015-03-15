@@ -1,4 +1,3 @@
 {
-	// "projects_dir": "Projects",
-	"use_machine_projects_dir": true,
+	"use_local_projects_dir": true
 }
