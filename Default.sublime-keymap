@@ -38,6 +38,9 @@
     // Bind reindent
     { "keys": ["ctrl+alt+i"], "command": "reindent", "args": {"single_line": false} },
 
+    // Bind word-wrap
+    { "keys": ["alt+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
+
     // Fold & unfold
     { "keys": ["super+["], "command": "fold" },
     { "keys": ["super+]"], "command": "unfold" },
