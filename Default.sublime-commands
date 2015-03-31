@@ -48,6 +48,7 @@
     { "command": "zen_tabs_reload", "caption": "Zen Tabs: Reload Settings" },
     { "command": "switch_tabs", "caption": "Zen Tabs: Switch Tabs" },
 
-    // Templates
+    // Macros
     { "command": "run_macro_file", "args": {"file": "res://Packages/User/Macros/Templates - Journal.sublime-macro"}, "caption": "Templates: Journal" },
+    { "command": "run_macro_file", "args": {"file": "res://Packages/User/Macros/Slugify.sublime-macro"}, "caption": "Macro: Slugify" },
 ]
