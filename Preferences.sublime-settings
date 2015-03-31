@@ -56,11 +56,14 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Vintage",
 		"MarkDo",
-		"Markdown",
+		"sublime-github",
 		"Sass",
+		"Markdown",
+		"Zen Tabs",
 		"CSS",
-		"Vintage"
+		"ColorHelper"
 	],
 	"indent_guide_options":
 	[
