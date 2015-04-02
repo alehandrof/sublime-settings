@@ -10,6 +10,10 @@
 	"atomic_save": false,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
+	"line_padding_bottom": 2,
+	"caret_extra_bottom": 2,
+	"line_padding_top": 2,
+	"caret_extra_top": 2,
 	"auto_complete_triggers":
 	[
 		{

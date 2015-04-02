@@ -3,10 +3,10 @@
     "font_face": "Fira Mono",
 
     "font_size": 20,
-    "line_padding_bottom": 5,
-    "caret_extra_bottom": 5,
-    "line_padding_top": 5,
-    "caret_extra_top": 5,
+    "line_padding_bottom": 8,
+    "caret_extra_bottom": 8,
+    "line_padding_top": 8,
+    "caret_extra_top": 8,
 
     /* Caret */
     "caret_style": "solid",
