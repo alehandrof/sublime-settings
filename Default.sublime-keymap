@@ -31,6 +31,8 @@
     { "keys": ["alt+`"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
     { "keys": ["ctrl+shift+;"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["super+;"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 
     // Bind "X/HTML: Wrap Selection With Tag"
     { "keys": ["ctrl+alt+t"], "command": "insert_snippet", "args": {"name": "Packages/XML/long-tag.sublime-snippet"}, "context": [ { "key": "selector", "operator": "equal", "operand": "text.html, text.xml", "match_all": true } ] },
@@ -86,8 +88,11 @@
     { "keys": ["ctrl+super+q"], "command": "git_quick_commit" },
     { "keys": ["ctrl+super+c"], "command": "run_macro_file", "args": { "file": "res://Packages/User/Super Git Commit.sublime-macro" } },
 
-    { "keys": ["ctrl+alt+;"], "command": "project_manager" },
+    // Git Savvy
+    { "keys": ["ctrl+w"], "command": "unbound", "context": [ { "key": "selector", "operator": "equal", "operand": "git-savvy.make-commit", "match_all": true } ] },
 
+    // Project Manager
+    { "keys": ["ctrl+alt+;"], "command": "project_manager" },
 
     // QuickCal
     { "keys": ["ctrl+super+alt+c"], "command": "calendar" },
