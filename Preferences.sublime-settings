@@ -10,10 +10,6 @@
 	"atomic_save": false,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
-	"line_padding_bottom": 2,
-	"caret_extra_bottom": 2,
-	"line_padding_top": 2,
-	"caret_extra_top": 2,
 	"auto_complete_triggers":
 	[
 		{
@@ -42,6 +38,8 @@
 		"*.xcf",
 		"*.zip"
 	],
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
 	"caret_extra_width": 1,
 	"caret_style": "solid",
 	"color_scheme": "Packages/Writerly/Wannabe.tmTheme",
@@ -60,14 +58,14 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Markdown",
+		"ColorHelper",
+		"Sass",
+		"Vintage",
 		"Zen Tabs",
 		"CSS",
 		"sublime-github",
-		"Sass",
-		"MarkDo",
-		"Vintage",
-		"ColorHelper",
-		"Markdown"
+		"MarkDo"
 	],
 	"indent_guide_options":
 	[
@@ -79,6 +77,8 @@
 		".sass-cache/*",
 		".git/*"
 	],
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"margin": 0,
 	"match_brackets": false,
 	"match_tags": false,
