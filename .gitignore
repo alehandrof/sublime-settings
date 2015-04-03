@@ -16,12 +16,14 @@ Package Control.*
 CalendarEvents/
 ChangeList.json
 EasyDiff/
+GitSavvy
 
 # Sensitive Information
 favorite_files_list.json
 Gist.sublime-settings
 GitHub.sublime-settings
 Ledger.sublime-completions
+Projects - */
 Projects/
 sftp_servers/
 Sublimall.sublime-settings
