@@ -91,6 +91,12 @@
     // Git Savvy
     { "keys": ["ctrl+w"], "command": "unbound", "context": [ { "key": "selector", "operator": "equal", "operand": "git-savvy.make-commit", "match_all": true } ] },
 
+    // Move by Paragraph
+    {"keys": ["super+up"], "command": "move_by_paragraph", "args": {"forward": false}},
+    {"keys": ["super+down"], "command": "move_by_paragraph", "args": {"forward": true}},
+    {"keys": ["super+shift+up"], "command": "move_by_paragraph", "args": {"forward": false, "extend": true}},
+    {"keys": ["super+shift+down"], "command": "move_by_paragraph", "args": {"forward": true, "extend": true}},
+
     // Project Manager
     { "keys": ["ctrl+alt+;"], "command": "project_manager" },
 

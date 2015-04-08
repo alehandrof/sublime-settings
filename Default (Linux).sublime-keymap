@@ -4,6 +4,6 @@
     { "keys": ["ctrl+alt+down"], "command": "select_lines", "args": {"forward": true} },
 
     // Fix scrolling with Ctrl+Up/Down (probably broken by Emmet)
-    { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
-    { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },
+    // { "keys": ["ctrl+up"], "command": "scroll_lines", "args": {"amount": 1.0 } },
+    // { "keys": ["ctrl+down"], "command": "scroll_lines", "args": {"amount": -1.0 } },
 ]
