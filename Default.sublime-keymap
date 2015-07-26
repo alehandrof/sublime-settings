@@ -60,6 +60,10 @@
     // Build
     { "keys": ["ctrl+super+b"], "command": "show_panel", "args": {"panel": "output.exec"} },
 
+    // Quick access to projects
+    // { "keys": ["ctrl+alt+;"], "command": "project_manager" },
+    { "keys": ["ctrl+alt+;"], "command": "prompt_select_workspace" },
+
     /**
      * PLUGINS
      */
@@ -88,17 +92,11 @@
     { "keys": ["ctrl+super+q"], "command": "git_quick_commit" },
     { "keys": ["ctrl+super+c"], "command": "run_macro_file", "args": { "file": "res://Packages/User/Super Git Commit.sublime-macro" } },
 
-    // Git Savvy
-    { "keys": ["ctrl+w"], "command": "unbound", "context": [ { "key": "selector", "operator": "equal", "operand": "git-savvy.make-commit", "match_all": true } ] },
-
     // Move by Paragraph
     {"keys": ["super+up"], "command": "move_by_paragraph", "args": {"forward": false}},
     {"keys": ["super+down"], "command": "move_by_paragraph", "args": {"forward": true}},
     {"keys": ["super+shift+up"], "command": "move_by_paragraph", "args": {"forward": false, "extend": true}},
     {"keys": ["super+shift+down"], "command": "move_by_paragraph", "args": {"forward": true, "extend": true}},
-
-    // Project Manager
-    { "keys": ["ctrl+alt+;"], "command": "project_manager" },
 
     // QuickCal
     { "keys": ["ctrl+super+alt+c"], "command": "calendar" },
