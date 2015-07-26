@@ -1,4 +1,5 @@
 {
+	"always_show_minimap_viewport": true,
 	"aprosopo_active_bar": true,
 	"aprosopo_combined_dirty_active_bar": true,
 	"aprosopo_dark_blue": true,
@@ -38,11 +39,13 @@
 		"*.xcf",
 		"*.zip"
 	],
+	"bold_folder_labels": true,
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
 	"caret_style": "solid",
-	"color_scheme": "Packages/Writerly/Wannabe.tmTheme",
+	"close_windows_when_empty": false,
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"default_line_ending": "unix",
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"fizzy_classic_tabs": true,
@@ -52,21 +55,22 @@
 		".sass-cache",
 		"*_files"
 	],
-	"font_face": "Fira Mono",
 	"font_size": 11,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"MarkDo",
+		"Sass",
 		"AdvancedNewFile",
+		"Markmon real-time markdown preview",
+		"MarkDo",
 		"ColorHelper",
+		"Vintage",
 		"Zen Tabs",
 		"Markdown",
-		"Vintage",
-		"CSS",
-		"Sass",
-		"sublime-github"
+		"CSS3",
+		"Text Pastry",
+		"Project Manager"
 	],
 	"indent_guide_options":
 	[
@@ -83,6 +87,7 @@
 	"margin": 0,
 	"match_brackets": false,
 	"match_tags": false,
+	"material_theme_small_tab": true,
 	"mouse_wheel_switches_tabs": true,
 	"overlay_scroll_bars": "enabled",
 	"remember_full_screen": true,
@@ -93,6 +98,7 @@
 	"spacegray_sidebar_tree_large": true,
 	"spacegray_tabs_font_large": true,
 	"spacegray_tabs_xlarge": true,
+	"theme": "Material-Theme.sublime-theme",
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true
 }
