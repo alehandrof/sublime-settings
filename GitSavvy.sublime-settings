@@ -1,3 +1,4 @@
 {
 	"show_commit_diff": true,
+	"show_git_flow_commands": true
 }
