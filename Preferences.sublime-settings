@@ -1,4 +1,9 @@
 {
+	"added_words":
+	[
+		"consortial",
+		"consortiums"
+	],
 	"always_show_minimap_viewport": true,
 	"aprosopo_active_bar": true,
 	"aprosopo_combined_dirty_active_bar": true,
@@ -40,8 +45,8 @@
 		"*.zip"
 	],
 	"bold_folder_labels": true,
-	"caret_extra_bottom": 2,
-	"caret_extra_top": 2,
+	"caret_extra_bottom": 1,
+	"caret_extra_top": 1,
 	"caret_extra_width": 1,
 	"caret_style": "solid",
 	"close_windows_when_empty": false,
@@ -55,22 +60,21 @@
 		".sass-cache",
 		"*_files"
 	],
-	"font_size": 11,
+	"font_face": "Roboto Mono",
+	"font_size": 15,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Sass",
-		"AdvancedNewFile",
-		"Project Manager",
+		"ColorHelper",
 		"CSS3",
-		"Markmon real-time markdown preview",
+		"KeyboardSpellCheck",
 		"MarkDo",
 		"Markdown",
-		"Zen Tabs",
+		"Sass",
 		"Text Pastry",
 		"Vintage",
-		"ColorHelper"
+		"Zen Tabs"
 	],
 	"indent_guide_options":
 	[
@@ -82,8 +86,8 @@
 		".sass-cache/*",
 		".git/*"
 	],
-	"line_padding_bottom": 2,
-	"line_padding_top": 2,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
 	"margin": 0,
 	"match_brackets": false,
 	"match_tags": false,
@@ -92,6 +96,7 @@
 	"overlay_scroll_bars": "enabled",
 	"remember_full_screen": true,
 	"revert_font_size": 11,
+	"scroll_past_end": true,
 	"show_line_endings": true,
 	"soda_classic_tabs": true,
 	"spacegray_sidebar_font_large": true,

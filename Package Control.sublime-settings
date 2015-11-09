@@ -1,5 +1,6 @@
 {
 	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -9,11 +10,13 @@
 		"Advanced CSV",
 		"AdvancedNewFile",
 		"Alignment",
+		"antlers-statamic-sublime-syntax",
 		"ApacheConf.tmLanguage",
 		"AutoFileName",
 		"Better CoffeeScript",
 		"BetterFindBuffer",
 		"BracketHighlighter",
+		"BufferScroll",
 		"Case Conversion",
 		"ColorHelper",
 		"ColorPicker",
@@ -51,6 +54,8 @@
 		"Ledger syntax highlighting",
 		"LESS",
 		"List stylesheet variables",
+		"Markdown Preview",
+		"Marked App Menu",
 		"Markmon real-time markdown preview",
 		"Material Theme",
 		"Missing Palette Commands",
@@ -63,7 +68,6 @@
 		"PackageResourceViewer",
 		"Pandown",
 		"PlainTasks",
-		"Project Manager",
 		"RevertFontSize",
 		"SaneSnippets",
 		"ScopeHunter",
@@ -72,8 +76,8 @@
 		"SideBarEnhancements",
 		"Smart Title Case",
 		"SmartCursor",
-		"Statamic-Textmate-Sublime-Bundle",
 		"SublimeLinter",
+		"SublimeLinter-contrib-alex",
 		"SublimeLinter-contrib-write-good",
 		"SublimeLinter-html-tidy",
 		"Syntax Highlighting for Sass",
@@ -92,7 +96,8 @@
 	"repositories":
 	[
 		"https://github.com/bizoo/SmartCursor",
-		"https://github.com/statamic/Statamic-Textmate-Sublime-Bundle",
-		"https://github.com/facelessuser/ColorHelper"
+		"https://github.com/facelessuser/ColorHelper",
+		"https://github.com/sindresorhus/SublimeLinter-contrib-alex",
+		"https://github.com/addisonhall/antlers-statamic-sublime-syntax"
 	]
 }
