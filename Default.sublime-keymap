@@ -37,9 +37,6 @@
     // Bind "X/HTML: Wrap Selection With Tag"
     { "keys": ["ctrl+alt+t"], "command": "insert_snippet", "args": {"name": "Packages/XML/long-tag.sublime-snippet"}, "context": [ { "key": "selector", "operator": "equal", "operand": "text.html, text.xml", "match_all": true } ] },
 
-    // Bind reindent
-    { "keys": ["ctrl+alt+i"], "command": "reindent", "args": {"single_line": false} },
-
     // Bind word-wrap
     { "keys": ["alt+w"], "command": "toggle_setting", "args": {"setting": "word_wrap"} },
 
@@ -76,11 +73,11 @@
     // { "keys": ["ctrl+\\"], "command": "align_tab", "args": { "user_input" : "\\|" }, "context": [ { "key": "selector", "operator": "equal", "operand": "text.plain, text.html.markdown", "match_all": true } ] },
 
     // Fuzzy Nav
-    { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
-    { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
+    // { "keys": ["ctrl+o"], "command": "fuzzy_start_from_file" },
+    // { "keys": ["ctrl+shift+o"], "command": "fuzzy_bookmarks_load" },
 
     // Find++
-    { "keys": ["ctrl+alt+f"], "command": "fpp_find_in_project" },
+    // { "keys": ["ctrl+alt+f"], "command": "fpp_find_in_project" },
 
     // FindCursor
     { "keys": ["ctrl+."], "command": "find_cursor", "args": {"reverse": false, "pan": false} },
@@ -133,7 +130,7 @@
     { "keys": ["ctrl+super+alt+t"], "command": "open_terminal_project_folder" },
 
     // Typewriter
-    { "keys": ["super+t"], "command": "run_macro_file", "args": { "file": "res://Packages/Typewriter/Typewriter Mode.sublime-macro" } },
+    // { "keys": ["super+t"], "command": "run_macro_file", "args": { "file": "res://Packages/Typewriter/Typewriter Mode.sublime-macro" } },
 
 
     /**

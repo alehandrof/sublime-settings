@@ -1,0 +1,46 @@
+[
+	// Fixes to defaults
+	// ==========================================================================
+
+  // Bind reindent
+  { "keys": ["ctrl+super+i"], "command": "reindent", "args": {"single_line": false} },
+
+  // Reopen last file -- this is the default keybinding that is overwritten by Terminal
+  { "keys": ["super+shift+t"], "command": "reopen_last_file" },
+
+  // Easier shortcuts
+  { "keys": ["super+alt+p"], "command": "prompt_select_workspace" },
+  { "keys": ["super+alt+;"], "command": "prompt_select_workspace" },
+  { "keys": ["super+ctrl+;"], "command": "prompt_select_workspace" },
+
+  // Fix decrease font size
+  { "keys": ["super+minus"], "command": "decrease_font_size" },
+
+
+	// Plugins
+	// ==========================================================================
+
+	// Fuzzy Nav
+	{ "keys": ["super+o"], "command": "fuzzy_start_from_file" },
+  { "keys": ["super+shift+o"], "command": "fuzzy_bookmarks_load" },
+
+  // Alignment -- default; overwritten by linter
+  { "keys": ["super+ctrl+a"], "command": "alignment" },
+
+  // Expand Region
+  { "keys": ["super+shift+space"], "command": "expand_region" },
+  {
+    "keys": ["super+u"],
+    "command": "expand_region",
+    "args": {"undo": true},
+    "context": [{ "key": "expand_region_soft_undo" }]
+  },
+
+  // Find++
+  { "keys": ["super+alt+shift+f"], "command": "fpp_find_in_project" },
+
+  // Revert font size -- which should work by default, but doesn't
+  { "keys": ["super+0"], "command": "revert_font_size" },
+
+]
+
