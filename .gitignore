@@ -19,6 +19,7 @@ EasyDiff/
 GitSavvy
 
 # Sensitive Information
+dired.sublime-settings
 favorite_files_list.json
 Gist.sublime-settings
 GitHub.sublime-settings
