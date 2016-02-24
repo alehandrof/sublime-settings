@@ -6,7 +6,6 @@
 	],
 	"installed_packages":
 	[
-		"AAAPackageDev",
 		"Advanced CSV",
 		"AdvancedNewFile",
 		"Alignment",
@@ -64,6 +63,7 @@
 		"MultiEditUtils",
 		"Open-Include",
 		"Package Control",
+		"PackageDev",
 		"PackageResourceViewer",
 		"Pandown",
 		"PlainTasks",
