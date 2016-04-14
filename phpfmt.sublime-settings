@@ -1,0 +1,6 @@
+{
+	"enable_auto_align": true,
+	"php_bin": "/Applications/MAMP/bin/php/php5.6.10/bin/php",
+	"psr2": true,
+	"version": 1
+}

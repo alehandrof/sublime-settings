@@ -4,6 +4,7 @@
 
   // Bind reindent
   { "keys": ["ctrl+super+i"], "command": "reindent", "args": {"single_line": false} },
+  { "keys": ["ctrl+super+i"], "command": "fmt_now", "context": [ { "key": "selector", "operator": "equal", "operand": "source.php", "match_all": true } ] },
 
   // Reopen last file -- this is the default keybinding that is overwritten by Terminal
   { "keys": ["super+shift+t"], "command": "reopen_last_file" },
