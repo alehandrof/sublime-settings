@@ -1,0 +1,4 @@
+{
+	"cmd": ["open","-a","/Applications/iA Writer.app","$file"],
+	"selector": "text.html.markdown"
+}

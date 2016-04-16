@@ -1,0 +1,4 @@
+{
+	"cmd": ["open","-a","/opt/homebrew-cask/Caskroom/marked/latest/Marked 2.app","$file"],
+	"selector": "text.html.markdown"
+}

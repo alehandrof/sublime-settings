@@ -1,0 +1,4 @@
+{
+	"cmd": ["open","-a","/Applications/FoldingText.app","$file"],
+	"selector": "text.html.markdown"
+}
