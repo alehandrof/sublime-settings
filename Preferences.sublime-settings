@@ -50,7 +50,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "solid",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
 	"default_line_ending": "unix",
 	"dictionary": "Packages/Language - English/en_GB.dic",
 	"fizzy_classic_tabs": true,
