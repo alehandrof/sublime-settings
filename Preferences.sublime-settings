@@ -5,14 +5,6 @@
 		"consortiums"
 	],
 	"always_show_minimap_viewport": true,
-	"aprosopo_active_bar": true,
-	"aprosopo_combined_dirty_active_bar": true,
-	"aprosopo_dark_blue": true,
-	"aprosopo_dark_dirty_red": true,
-	"aprosopo_dirty_bar": true,
-	"aprosopo_hide_folder_expand_icon": true,
-	"aprosopo_show_tab_close_buttons": true,
-	"aprosopo_show_tab_close_on_hover": true,
 	"atomic_save": false,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_selector": "source - comment, meta.tag - punctuation.definition.tag.begin",
@@ -60,8 +52,8 @@
 		".sass-cache",
 		"*_files"
 	],
-	"font_face": "Roboto Mono",
-	"font_size": 15,
+	"font_face": "CamingoCode",
+	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
