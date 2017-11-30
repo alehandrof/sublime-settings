@@ -1,5 +1,7 @@
 {
+	"autocomplete": true,
 	"enable_auto_align": true,
+	"format_on_save": true,
 	"php_bin": "/Applications/MAMP/bin/php/php7.0.0/bin/php",
 	"psr2": true,
 	"version": 1

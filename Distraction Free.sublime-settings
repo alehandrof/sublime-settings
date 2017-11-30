@@ -1,18 +1,32 @@
 {
     /* Font */
-    "font_face": "Roboto Mono",
-    "font_size": 20,
-    "line_padding_bottom": 8,
-    "caret_extra_bottom": 8,
-    "line_padding_top": 8,
-    "caret_extra_top": 8,
+    // "font_face": "SF Mono",
+    // "font_size": 20,
+    // "line_padding_bottom": 5,
+    // "caret_extra_bottom": 5,
+    // "line_padding_top": 5,
+    // "caret_extra_top": 5,
+
+    "font_face": "Iosevka Term",
+    "font_size": 22,
+    "line_padding_bottom": 3,
+    "caret_extra_bottom": 3,
+    "line_padding_top": 3,
+    "caret_extra_top": 3,
+
+    // "font_face": "Nitti Grotesk",
+    // "font_size": 25,
+    // "line_padding_bottom": 2,
+    // "caret_extra_bottom": 2,
+    // "line_padding_top": 2,
+    // "caret_extra_top": 2,
 
     // "font_face": "Nitti Pro",
-    // "font_size": 23,
-    // "line_padding_bottom": 7,
-    // "caret_extra_bottom": 7,
-    // "line_padding_top": 7,
-    // "caret_extra_top": 7,
+    // "font_size": 20,
+    // "line_padding_bottom": 2,
+    // "caret_extra_bottom": 2,
+    // "line_padding_top": 2,
+    // "caret_extra_top": 2,
 
     // "font_face": "CMU Typewriter Text",
     // "font_size": 24,
@@ -37,5 +51,5 @@
     // "wrap_width": 73, // Typewriter
     // "wrap_width": 67, // Bringhurst
     // "wrap_width": 61, // why?
-    "wrap_width": 66, // 2.5 alphabets (Butterick)
+    // "wrap_width": 66, // 2.5 alphabets (Butterick)
 }

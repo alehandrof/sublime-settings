@@ -43,5 +43,12 @@
   // Revert font size -- which should work by default, but doesn't
   { "keys": ["super+0"], "command": "revert_font_size" },
 
+  // Hyperclick
+  { "keys": ["ctrl+alt+down"], "command": "hyper_click_jump", "context": [{ "key": "hyper_click_jump_line", "operand": true } ] },
+
+  // MyWiki
+  { "keys": ["alt+enter"], "command": "follow_wiki_link"},
+  { "keys": ["[", "["], "command": "get_wiki_link"}
+
 ]
 

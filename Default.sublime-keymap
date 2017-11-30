@@ -132,6 +132,10 @@
     // Typewriter
     // { "keys": ["super+t"], "command": "run_macro_file", "args": { "file": "res://Packages/Typewriter/Typewriter Mode.sublime-macro" } },
 
+    // Word jump selections
+    // via: https://forum.sublimetext.com/t/why-you-might-want-to-give-your-ctrl-left-and-ctrl-right-these-alternative-behaviors/28523/
+    // { "keys": ["ctrl+left"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/BlobLeft.sublime-macro"} },
+    // { "keys": ["ctrl+right"], "command": "run_macro_file", "args": {"file": "Packages/User/Macros/BlobRight.sublime-macro"} },
 
     /**
      * OVERTYPE CHARACTERS

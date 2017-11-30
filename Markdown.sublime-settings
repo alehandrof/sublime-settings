@@ -1,13 +1,17 @@
 {
     // "auto_complete_delay": 1000,
     // "auto_complete_delay": 0,
+    // "color_scheme": "Packages/Agila Theme/Markdown/Dracula Markdown.tmTheme",
     "auto_complete": false,
     "tab_size": 2,
     "translate_tabs_to_spaces": false,
     // "plain_text_autopair": true,
     "auto_match_enabled": false,
     "detect_indentation": false,
-    "wrap_width": 66,
+    // "wrap_width": 66,
+    "wrap_width": 78,
+    "draw_centered": true,
+    "mde.keymap_disable.fold_section": true,
     "extensions":
     [
         // "txt",
