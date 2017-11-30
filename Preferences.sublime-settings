@@ -2,7 +2,10 @@
 	"added_words":
 	[
 		"consortial",
-		"consortiums"
+		"consortiums",
+		"online",
+		"etc",
+		"workflows"
 	],
 	"always_show_minimap_viewport": true,
 	"atomic_save": false,
@@ -42,35 +45,44 @@
 	"caret_extra_width": 1,
 	"caret_style": "solid",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-OceanicNext.tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
 	"default_line_ending": "unix",
+	"detect_indentation": true,
 	"dictionary": "Packages/Language - English/en_GB.dic",
-	"fizzy_classic_tabs": true,
 	"folder_exclude_patterns":
 	[
 		".git",
 		".sass-cache",
 		"*_files"
 	],
-	"font_face": "CamingoCode",
+	"font_face": "Iosevka",
+	"font_options":
+	[
+		"gray_antialias",
+		"subpixel_antialias"
+	],
 	"font_size": 16,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"ColorHelper",
+		"AdvancedNewFile",
+		"BetterMarkdown",
+		"CodeComplice",
 		"CSS3",
 		"KeyboardSpellCheck",
 		"MarkDo",
 		"Markdown",
+		"MultiEditUtils",
 		"Sass",
-		"Statamic",
+		"SmartType",
 		"Text Pastry",
 		"Vintage",
 		"Zen Tabs"
 	],
 	"indent_guide_options":
 	[
+		"draw_normal",
 		"draw_active"
 	],
 	"index_exclude_patterns":
@@ -79,24 +91,24 @@
 		".sass-cache/*",
 		".git/*"
 	],
-	"line_padding_bottom": 1,
-	"line_padding_top": 1,
+	"line_padding_bottom": 2,
+	"line_padding_top": 2,
 	"margin": 0,
 	"match_brackets": false,
 	"match_tags": false,
 	"material_theme_small_tab": true,
-	"mouse_wheel_switches_tabs": true,
 	"overlay_scroll_bars": "enabled",
 	"remember_full_screen": true,
-	"revert_font_size": 15,
+	"revert_font_size": 16,
 	"scroll_past_end": true,
+	"show_encoding": true,
 	"show_line_endings": true,
-	"soda_classic_tabs": true,
-	"spacegray_sidebar_font_large": true,
-	"spacegray_sidebar_tree_large": true,
-	"spacegray_tabs_font_large": true,
-	"spacegray_tabs_xlarge": true,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
+	"theme_font_options":
+	[
+		"gray_antialias",
+		"subpixel_antialias"
+	],
 	"trim_automatic_white_space": false,
 	"trim_trailing_white_space_on_save": true
 }
