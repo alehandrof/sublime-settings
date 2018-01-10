@@ -1,8 +1,6 @@
 # Binary
-*.cache
 Color Highlighter/
 ColorPicker/
-subclrschm*
 
 # Documentation
 *.md
@@ -16,7 +14,7 @@ Package Control.*
 CalendarEvents/
 ChangeList.json
 EasyDiff/
-GitSavvy
+GitSavvy/
 
 # Sensitive Information
 dired.sublime-settings
@@ -34,9 +32,12 @@ Toggl Timer.sublime-settings
 User.sublime-completions
 WakaTime.sublime-settings
 
-# Junk
+# Junk or temporary files
 *(SL).tmTheme*
+*.cache
+*.crt
 *.foo
+*.status
 *.tmp
 *conflicted copy*
 Color Schemes/*
