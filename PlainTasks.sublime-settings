@@ -2,11 +2,11 @@
 	"archive_name": "Archive:",
 	"before_tasks_bullet_margin": 1,
 	"cancelled_tasks_bullet": "-",
-	// "color_scheme": "Packages/Material Theme/extras/PlainTasks/Material-Theme-Palenight.hidden-tmTheme",
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"color_scheme": "Packages/Material Theme/extras/PlainTasks/Material-Theme-Darker.hidden-tmTheme",
 	"date_format": "(%y-%m-%d)",
 	"done_tag": true,
 	"done_tasks_bullet": "-",
+	"draw_centered": true,
 	"draw_indent_guides": false,
 	"extensions":
 	[
@@ -30,6 +30,5 @@
 	"taskpaper_compatible": true,
 	"translate_tabs_to_spaces": false,
 	"use_tab_stops": false,
-	"wrap_width": 100,
-  "draw_centered": true
+	"wrap_width": 100
 }
