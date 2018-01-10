@@ -7,6 +7,8 @@
     "txt"
   ],
 
+  // My settings
+  "auto_complete": false,
   "detect_indentation": false,
 
   // "color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
